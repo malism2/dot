@@ -1,6 +1,7 @@
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import org.jetbrains.kotlin.gradle.plugin.KotlinDependencyHandler
 import org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackConfig
 
@@ -9,6 +10,7 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsCompose)
     alias(libs.plugins.compose.compiler)
+    alias(libs.plugins.ksp)
 }
 
 kotlin {
@@ -56,20 +58,30 @@ kotlin {
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
+            dependenciesExceptJs()
+            dependenciesOther(ios = false)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
             implementation(compose.foundation)
-            implementation(compose.material)
+            implementation(compose.material3)
             implementation(compose.ui)
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
+	        implementation(projects.shared)
+            commonDependencies()
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
             implementation(libs.kotlinx.coroutines.swing)
+            dependenciesExceptJs()
+            dependenciesOther(ios = false)
+        }
+        iosMain.dependencies {
+            dependenciesExceptJs()
+            dependenciesOther(ios = true)
         }
     }
 }
@@ -120,5 +132,33 @@ compose.desktop {
             packageName = "com.malism.dot"
             packageVersion = "1.0.0"
         }
+    }
+}
+
+
+fun KotlinDependencyHandler.commonDependencies() {
+    implementation(libs.navigation)
+    implementation(libs.coil)
+//  implementation(libs.paging) // not available expect android
+
+    implementation(libs.ktor.client.core)
+    implementation(libs.ktor.client.logging)
+    implementation(libs.ktor.client.json)
+}
+
+fun KotlinDependencyHandler.dependenciesExceptJs() {
+    implementation(libs.datastore)
+    implementation(libs.datastore.preferences)
+    implementation(libs.room)
+    implementation(libs.sqlite.bundled)
+    implementation(libs.room.paging)
+
+}
+
+fun KotlinDependencyHandler.dependenciesOther(ios: Boolean) {
+    if (ios) {
+        implementation(libs.ktor.client.darwin)
+    } else {
+        implementation(libs.ktor.client.okhttp)
     }
 }
