@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.kotlinJvm)
-    alias(libs.plugins.ktor)
+    alias(libs.plugins.ktor.server)
     alias(libs.plugins.kserialization)
     application
 }
@@ -23,9 +23,16 @@ dependencies {
     implementation(libs.ktor.server.host)
     implementation(libs.ktor.server.status)
     implementation(libs.ktor.server.config)
-    implementation(libs.h2database)
     implementation(libs.exposed.core)
     implementation(libs.exposed.jdbc)
+    implementation(libs.exposed.datetime)
+    implementation(libs.hikaricp)
+    implementation(libs.mysql)
+
+    implementation(platform(libs.koin.bom))
+    implementation(libs.koin.core)
+    implementation(libs.koin.ktor)
+
 //    testImplementation(libs.ktor.server.tests)
 //    testImplementation(libs.kotlin.test.junit)
 }
