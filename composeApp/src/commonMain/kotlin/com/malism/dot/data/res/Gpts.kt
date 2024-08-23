@@ -1,10 +1,10 @@
-package com.malism.dot.bean
+package com.malism.dot.data.res
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-class GptItem(
+class Gpts(
     val uuid: String,
     @SerialName("org_id")
     val orgId: String,

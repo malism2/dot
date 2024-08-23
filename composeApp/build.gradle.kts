@@ -11,6 +11,8 @@ plugins {
     alias(libs.plugins.jetbrainsCompose)
     alias(libs.plugins.compose.compiler)
     alias(libs.plugins.ksp)
+    alias(libs.plugins.kserialization)
+//    alias(libs.plugins.ktorfit)
 }
 
 kotlin {
@@ -60,6 +62,7 @@ kotlin {
             implementation(libs.androidx.activity.compose)
             dependenciesExceptJs()
             dependenciesOther(ios = false)
+            implementation(libs.koin.android)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -137,13 +140,21 @@ compose.desktop {
 
 
 fun KotlinDependencyHandler.commonDependencies() {
+    implementation(libs.kotlinx.datetime)
     implementation(libs.navigation)
     implementation(libs.coil)
 //  implementation(libs.paging) // not available expect android
-
+    implementation(libs.logger)
+//    implementation(libs.ktorfit)
     implementation(libs.ktor.client.core)
     implementation(libs.ktor.client.logging)
     implementation(libs.ktor.client.json)
+    implementation(libs.ktor.client.serialization)
+    implementation(libs.ktor.client.negotiation)
+
+    implementation(project.dependencies.platform(libs.koin.bom))
+    implementation(libs.koin.core)
+    implementation(libs.koin.compose)
 }
 
 fun KotlinDependencyHandler.dependenciesExceptJs() {

@@ -79,7 +79,7 @@ class GptDao(database: Database) {
             Gpts.selectAll()
                 .where { Gpts.uuid eq uuid }
                 .limit(1)
-                .map { map(it) }
+                .map { map(it, true) }
                 .singleOrNull()
         }
     }
@@ -115,7 +115,7 @@ class GptDao(database: Database) {
                 this[Gpts.authorName] = it.authorName
                 this[Gpts.createdAt] = it.createAt
                 this[Gpts.updatedAt] = it.updateAt
-                this[Gpts.detail] = it.detail
+                this[Gpts.detail] = it.detail ?: ""
                 this[Gpts.isRecommend] = it.isRecommend
                 this[Gpts.sort] = it.sort
                 this[Gpts.rating] = it.rating
@@ -125,7 +125,7 @@ class GptDao(database: Database) {
         }
     }
 
-    private fun map(d: ResultRow): GptItem = GptItem(
+    private fun map(d: ResultRow, needMore: Boolean = false): GptItem = GptItem(
         uuid = d[Gpts.uuid],
         orgId = d[Gpts.orgId],
         name = d[Gpts.name],
@@ -136,7 +136,7 @@ class GptDao(database: Database) {
         authorName = d[Gpts.authorName],
         createAt = d[Gpts.createdAt],
         updateAt = d[Gpts.updatedAt],
-        detail = d[Gpts.detail],
+        detail = if (needMore) d[Gpts.detail] else null,
         isRecommend = d[Gpts.isRecommend],
         sort = d[Gpts.sort],
         rating = d[Gpts.rating],
