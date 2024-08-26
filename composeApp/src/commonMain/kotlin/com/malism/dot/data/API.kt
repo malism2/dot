@@ -20,8 +20,8 @@ class API(private val client: KtorClient) {
         return client.get(API_RECOMMEND)
     }
 
-    suspend fun getDetail(): Result<Detail?> {
-        return client.get(API_DETAIL)
+    suspend fun getDetail(id: String): Result<Detail?> {
+        return client.get(API_DETAIL, mapOf(Pair("id", id)))
     }
 
     companion object {

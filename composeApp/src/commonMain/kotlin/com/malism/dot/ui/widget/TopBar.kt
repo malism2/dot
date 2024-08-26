@@ -29,6 +29,7 @@ fun TopBar(
     action: @Composable RowScope.() -> Unit = {}
 ) {
     TopAppBar(
+        modifier = Modifier.padding(horizontal = LocalWindowSize.current.padding),
 //        colors = TopAppBarDefaults.topAppBarColors(
 //            containerColor = MaterialTheme.colorScheme.primary,
 //            titleContentColor = MaterialTheme.colorScheme.onPrimary,

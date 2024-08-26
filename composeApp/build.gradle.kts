@@ -143,6 +143,7 @@ fun KotlinDependencyHandler.commonDependencies() {
     implementation(libs.kotlinx.datetime)
     implementation(libs.navigation)
     implementation(libs.coil)
+    implementation(libs.coil.network)
 //  implementation(libs.paging) // not available expect android
     implementation(libs.logger)
 //    implementation(libs.ktorfit)

@@ -15,6 +15,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
+import androidx.compose.ui.unit.Dp
 import androidx.navigation.NavHostController
 
 @Composable
@@ -35,6 +36,7 @@ fun Content(
         topBar = { TopBar(title, nav, isMain, navigationIcon, action) }
     ) { p ->
         Container(
+            horizontal = LocalWindowSize.current.padding,
             padding = p,
             uiState = uiState,
             empty = empty,
@@ -47,6 +49,7 @@ fun Content(
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun Container(
+    horizontal: Dp,
     padding: PaddingValues,
     uiState: UiState? = null,
     empty: @Composable () -> Unit = {},
@@ -54,7 +57,7 @@ fun Container(
     content: @Composable () -> Unit
 ) {
     if (pullToRefresh == null) {
-        Box(modifier = Modifier.fillMaxSize().padding(padding)) {
+        Box(modifier = Modifier.fillMaxSize().padding(padding).padding(horizontal = horizontal)) {
             if (uiState?.isLoading == true && uiState.empty()) {
                 Loading()
             } else if (uiState?.empty() == true) {
@@ -75,7 +78,7 @@ fun Container(
             else if (!state.isRefreshing) state.startRefresh()
         }
         Box(
-            modifier = Modifier.fillMaxSize().padding(padding)
+            modifier = Modifier.fillMaxSize().padding(padding).padding(horizontal = horizontal)
                 .nestedScroll(state.nestedScrollConnection)
         ) {
             if (uiState?.isLoading == true && uiState.empty()) {
