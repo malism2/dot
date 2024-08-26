@@ -25,7 +25,7 @@ class API(private val client: KtorClient) {
     }
 
     companion object {
-        private const val HOST = "http://192.168.1.248:8080"
+        private const val HOST = "http://192.168.1.248:8088"
         private const val TIMEOUT = 30000L
         private const val API_GET = "/g"
         private const val API_HOT = "/hot"
