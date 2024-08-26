@@ -10,6 +10,8 @@ import com.malism.dot.service.GptService
 import com.malism.dot.service.HelloService
 import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource
+import io.ktor.http.HttpHeaders
+import io.ktor.http.HttpMethod
 import io.ktor.server.application.*
 import io.ktor.http.HttpStatusCode
 import io.ktor.serialization.kotlinx.json.json
@@ -17,11 +19,13 @@ import io.ktor.server.application.install
 import io.ktor.server.http.content.staticResources
 import io.ktor.server.plugins.callloging.CallLogging
 import io.ktor.server.plugins.contentnegotiation.ContentNegotiation
+import io.ktor.server.plugins.cors.routing.CORS
 import io.ktor.server.plugins.statuspages.StatusPages
 import io.ktor.server.request.path
 import io.ktor.server.response.respond
 import io.ktor.server.response.respondText
 import io.ktor.server.routing.get
+import io.ktor.server.routing.options
 import io.ktor.server.routing.routing
 import org.jetbrains.exposed.sql.Database
 import org.koin.dsl.module
@@ -109,5 +113,15 @@ fun Application.setup() {
                 status = HttpStatusCode.InternalServerError
             )
         }
+    }
+
+    // cors
+    install(CORS) {
+        anyHost()
+        allowMethod(HttpMethod.Options)
+        allowHeader(HttpHeaders.ContentType)
+        allowHeader(HttpHeaders.Authorization)
+        allowHeadersPrefixed("custom-")
+        allowCredentials = true
     }
 }

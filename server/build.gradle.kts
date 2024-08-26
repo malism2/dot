@@ -23,6 +23,7 @@ dependencies {
     implementation(libs.ktor.server.host)
     implementation(libs.ktor.server.status)
     implementation(libs.ktor.server.config)
+    implementation(libs.ktor.server.cors)
     implementation(libs.exposed.core)
     implementation(libs.exposed.jdbc)
     implementation(libs.exposed.datetime)

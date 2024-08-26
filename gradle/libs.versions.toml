@@ -88,6 +88,7 @@ ktor-server-negotiation = { module = "io.ktor:ktor-server-content-negotiation-jv
 ktor-server-config = { module = "io.ktor:ktor-server-config-yaml", version.ref = "ktor-server" }
 ktor-server-host = { module = "io.ktor:ktor-server-host-common-jvm", version.ref = "ktor-server" }
 ktor-server-status = { module = "io.ktor:ktor-server-status-pages-jvm", version.ref = "ktor-server" }
+ktor-server-cors = { module = "io.ktor:ktor-server-cors", version.ref = "ktor-server"}
 exposed-core = { module = "org.jetbrains.exposed:exposed-core", version.ref = "exposed" }
 exposed-jdbc = { module = "org.jetbrains.exposed:exposed-jdbc", version.ref = "exposed" }
 exposed-datetime = { module = "org.jetbrains.exposed:exposed-kotlin-datetime", version.ref = "exposed" }
