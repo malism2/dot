@@ -1,5 +1,8 @@
 package com.malism.dot
 
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.ExperimentalComposeUiApi
+import androidx.compose.ui.platform.LocalWindowInfo
 import platform.UIKit.UIDevice
 
 class IOSPlatform: Platform {
@@ -7,3 +10,7 @@ class IOSPlatform: Platform {
 }
 
 actual fun getPlatform(): Platform = IOSPlatform()
+
+@OptIn(ExperimentalComposeUiApi::class)
+@Composable
+actual fun getScreenWidth(): Int = LocalWindowInfo.current.containerSize.width

@@ -8,8 +8,9 @@ import com.malism.dot.data.res.Result
 
 class API(private val client: KtorClient) {
 
-    suspend fun get(): Result<List<Gpts>?> {
-        return client.get(API_GET)
+    suspend fun get(search: String?): Result<List<Gpts>?> {
+        val p = if (search == null) { null } else { mapOf(Pair("s", search)) }
+        return client.get(API_GET, p)
     }
 
     suspend fun getHot(): Result<List<Gpts>?> {

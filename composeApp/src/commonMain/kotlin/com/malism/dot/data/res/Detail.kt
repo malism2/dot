@@ -22,11 +22,25 @@ class Detail(
     val createAt: Long,
     @SerialName("update_at")
     val updateAt: Long,
-    val detail: String? = null,
+    @SerialName("more_info")
+    val moreInfo: MoreInfo? = null,
     @SerialName("is_recommend")
     val isRecommend: Boolean,
     val sort: Int,
     val rating: Float,
     val review: Long,
-    val group: String
+    val group: String,
+)
+
+@Serializable
+class MoreInfo(
+    val welcome: String? = null,
+    val prompts: List<String>? = null,
+    val tools: List<Tool>? = null
+)
+
+@Serializable
+class Tool(
+    val id: String,
+    val type: String
 )

@@ -2,7 +2,9 @@ package com.malism.dot.dao
 
 import com.malism.dot.bean.GptGroup
 import com.malism.dot.bean.GptItem
+import com.malism.dot.bean.MoreInfo
 import com.malism.dot.utils.dbQuery
+import com.malism.dot.utils.json
 import org.jetbrains.exposed.dao.id.LongIdTable
 import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.ResultRow
@@ -52,9 +54,11 @@ class GptDao(database: Database) {
 
     suspend fun getAll(like: String?): List<GptItem> {
         return dbQuery {
-            Gpts.selectAll()
-                .limit(100)
-                .map { map(it) }
+            Gpts.selectAll().apply {
+                if (!like.isNullOrEmpty()) {
+                    where { Gpts.name like "%$like%" }
+                }
+            }.limit(100).map { map(it) }
         }
     }
 
@@ -115,7 +119,7 @@ class GptDao(database: Database) {
                 this[Gpts.authorName] = it.authorName
                 this[Gpts.createdAt] = it.createAt
                 this[Gpts.updatedAt] = it.updateAt
-                this[Gpts.detail] = it.detail ?: ""
+                this[Gpts.detail] = it.moreInfo?.toJson() ?: ""
                 this[Gpts.isRecommend] = it.isRecommend
                 this[Gpts.sort] = it.sort
                 this[Gpts.rating] = it.rating
@@ -136,7 +140,7 @@ class GptDao(database: Database) {
         authorName = d[Gpts.authorName],
         createAt = d[Gpts.createdAt],
         updateAt = d[Gpts.updatedAt],
-        detail = if (needMore) d[Gpts.detail] else null,
+        moreInfo = if (needMore) MoreInfo.fromJson(d[Gpts.detail]) else null,
         isRecommend = d[Gpts.isRecommend],
         sort = d[Gpts.sort],
         rating = d[Gpts.rating],

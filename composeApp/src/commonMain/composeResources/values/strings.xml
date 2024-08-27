@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">dot</string>
     <string name="title">Third-party GPTs store</string>
+    <string name="search_hint">keyword or prompt for GPTs</string>
+
+    <string name="created_at">Created at %1$s</string>
+    <string name="created_by">Created by %1$s</string>
+    <string name="what_is_this">What is %1$s</string>
+    <string name="capabilities">Capabilities of %1$s</string>
+    <string name="try_on_gpt">Try %1$s on ChatGPT 👉</string>
+    <string name="preview">Preview %1$s</string>
+    <string name="prompt_starter">Prompt Starters of %1$s</string>
+    <string name="tools_browser">Web Browsing</string>
+    <string name="tools_dalle">DALL·E Image Generation</string>
+    <string name="tools_code">Code Interpreter</string>
 </resources>

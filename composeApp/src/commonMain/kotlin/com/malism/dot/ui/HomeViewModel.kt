@@ -30,13 +30,13 @@ class HomeViewModel: BaseViewModel<HomeUiState>() {
         loadData()
     }
 
-    fun loadData() {
+    fun loadData(search: String? = null) {
         viewModelScope.launch(Dispatchers.Main) {
             uiState = HomeUiState(true, null, data.isEmpty())
             Log.d("loadData")
             val result = withContext(Dispatchers.Default) {
                 try {
-                    API.get().get()
+                    API.get().get(search)
                 } catch (e: Throwable) {
                     Log.d("get", e)
                     null

@@ -4,6 +4,7 @@ import com.malism.dot.bean.Config
 import com.malism.dot.bean.Conversation
 import com.malism.dot.bean.GptGroup
 import com.malism.dot.bean.GptItem
+import com.malism.dot.bean.MoreInfo
 import com.malism.dot.bean.RawData
 import com.malism.dot.dao.ConfigDao
 import com.malism.dot.dao.GptDao
@@ -85,7 +86,11 @@ object Sync {
                 authorName = it.resource.gizmo.author.displayName,
                 createAt = parseTime(it.resource.gizmo.createdAt),
                 updateAt = parseTime(it.resource.gizmo.updatedAt),
-                detail = json().encodeToString(it.resource),
+                moreInfo = MoreInfo(
+                    it.resource.gizmo.display.welcomeMessage,
+                    it.resource.gizmo.display.promptStarters,
+                    it.resource.tools
+                ),
                 isRecommend = false,
                 sort = 0,
                 rating = i?.reviewAverage ?: 0f,

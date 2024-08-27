@@ -22,7 +22,7 @@ fun App() {
     ) {
         AppTheme {
             CompositionLocalProvider(
-                LocalWindowSize provides WindowSize.compute(LocalWindowInfo.current.containerSize.width)
+                LocalWindowSize provides WindowSize.compute(getScreenWidth())
             ) {
                 AppScreen()
             }

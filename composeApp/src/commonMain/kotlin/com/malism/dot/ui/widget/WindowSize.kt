@@ -3,6 +3,7 @@ package com.malism.dot.ui.widget
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import com.malism.dot.utils.Log
 import kotlin.jvm.JvmStatic
 
 val LocalWindowSize = staticCompositionLocalOf<WindowSize> {
@@ -37,22 +38,25 @@ class WindowSize private constructor(private val value: Int, val padding: Dp) {
         return value
     }
 
+    fun isLarge() = this.value > MEDIUM.value
+
     companion object {
         @JvmStatic
         val COMPACT = WindowSize(0, 0.dp)
         @JvmStatic
         val MEDIUM = WindowSize(1, 64.dp)
         @JvmStatic
-        val EXPANDED = WindowSize(2, 256.dp)
+        val EXPANDED = WindowSize(2, 96.dp)
         @JvmStatic
-        val LARGE = WindowSize(2, 360.dp)
+        val LARGE = WindowSize(3, 320.dp)
 
         fun compute(dpWidth: Int): WindowSize {
+            Log.d("window width $dpWidth")
             require(dpWidth >= 0) { "Width must be positive, received $dpWidth" }
             return when {
                 dpWidth < 600 -> COMPACT
                 dpWidth < 840 -> MEDIUM
-                dpWidth < 1280 -> EXPANDED
+                dpWidth < 1560 -> EXPANDED
                 else -> LARGE
             }
         }
