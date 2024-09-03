@@ -67,7 +67,7 @@ fun HomeScreen(nav: NavHostController) {
         uiState = viewModel.uiState,
         pullToRefresh = viewModel::loadData,
         navigationIcon = {
-            Icon(
+            Image(
                 modifier = Modifier.size(36.dp),
                 painter = painterResource(Res.drawable.app_icon),
                 contentDescription = null,

@@ -86,6 +86,9 @@ kotlin {
             dependenciesExceptJs()
             dependenciesOther(ios = true)
         }
+        wasmWasiMain.dependencies {
+            implementation(libs.kotlinx.coroutines.js)
+        }
     }
 }
 

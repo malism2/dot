@@ -31,7 +31,7 @@ fun dateFormat(value: Long): String {
 fun ratingFormat(value: Float): String {
     return StringBuilder().apply {
         for ( i in 1..ceil(value).toInt()) {
-            append("★")
+            append("*")
         }
     }.toString()
 }
