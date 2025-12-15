@@ -1,4 +1,4 @@
-baseURL               = "https://webstack-hugo.weiyan.cc/"
+baseURL               = "https://www.0x10ai.com/"
 languageCode          = "zh-CN"
 title                 = "AI 工具导航"
 theme                 = "WebStack-Hugo"

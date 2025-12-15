@@ -1,47 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Ai,audio,语音识别 on AI 工具导航</title>
-    <link>https://webstack-hugo.weiyan.cc/categories/aiaudio%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB/</link>
-    <description>Recent content in Ai,audio,语音识别 on AI 工具导航</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://webstack-hugo.weiyan.cc/categories/aiaudio%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Amazon Transcribe</title>
-      <link>https://webstack-hugo.weiyan.cc/aw/amazon-transcribe/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://webstack-hugo.weiyan.cc/aw/amazon-transcribe/</guid>
-      <description>&lt;h1 id=&#34;amazon-transcribe是什么&#34;&gt;Amazon Transcribe是什么&lt;/h1&gt;&#xA;&lt;p&gt;Amazon Transcribe是AWS提供的AI语音识别服务，能够将语音内容自动转换为文本。该服务利用先进的深度学习技术，支持多种语言和方言，具有高度的准确性和鲁棒性。Amazon Transcribe广泛应用于各种语音处理场景，如会议记录、客户服务、媒体内容分析等，是企业级语音识别的理想选择。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AssemblyAI</title>
-      <link>https://webstack-hugo.weiyan.cc/aw/assemblyai/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://webstack-hugo.weiyan.cc/aw/assemblyai/</guid>
-      <description>&lt;h1 id=&#34;assemblyai是什么&#34;&gt;AssemblyAI是什么&lt;/h1&gt;&#xA;&lt;p&gt;AssemblyAI是一个先进的AI语音识别和分析平台，提供高精度的语音转文本服务和丰富的音频分析功能。该平台利用最先进的深度学习技术，支持多种语言和复杂的音频分析任务，适用于各种语音处理场景。AssemblyAI以其出色的识别准确率、易于集成的API和丰富的功能而受到开发者和企业的青睐。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Google Speech-to-Text</title>
-      <link>https://webstack-hugo.weiyan.cc/aw/google-speech-to-text/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://webstack-hugo.weiyan.cc/aw/google-speech-to-text/</guid>
-      <description>&lt;h1 id=&#34;google-speech-to-text是什么&#34;&gt;Google Speech-to-Text是什么&lt;/h1&gt;&#xA;&lt;p&gt;Google Speech-to-Text是Google Cloud提供的AI语音识别服务，利用Google先进的深度学习技术将语音内容准确转换为文本。该服务支持多种语言和方言，具有高度的准确性和鲁棒性，适用于各种语音处理场景。Google Speech-to-Text以其强大的功能和全球覆盖而受到企业和开发者的青睐。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Microsoft Azure Speech-to-Text</title>
-      <link>https://webstack-hugo.weiyan.cc/aw/microsoft-azure-speech-to-text/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://webstack-hugo.weiyan.cc/aw/microsoft-azure-speech-to-text/</guid>
-      <description>&lt;h1 id=&#34;microsoft-azure-speech-to-text是什么&#34;&gt;Microsoft Azure Speech-to-Text是什么&lt;/h1&gt;&#xA;&lt;p&gt;Microsoft Azure Speech-to-Text是Microsoft Azure提供的AI语音识别服务，能够将语音内容准确转换为文本。该服务利用先进的深度学习技术，支持多种语言和方言，具有高度的准确性和鲁棒性。Azure Speech-to-Text广泛应用于各种语音处理场景，如语音助手、客户服务、会议记录等，是企业级语音识别的理想选择。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>OpenAI Whisper</title>
-      <link>https://webstack-hugo.weiyan.cc/aw/openai-whisper/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://webstack-hugo.weiyan.cc/aw/openai-whisper/</guid>
-      <description>&lt;h1 id=&#34;openai-whisper是什么&#34;&gt;OpenAI Whisper是什么&lt;/h1&gt;&#xA;&lt;p&gt;OpenAI Whisper是OpenAI开发的先进AI语音识别模型，能够将语音内容准确转换为文本。该模型经过大规模多语言数据训练，支持多种语言的语音识别，具有高度的准确性和鲁棒性。OpenAI Whisper以其出色的性能和广泛的语言支持而受到研究者和开发者的青睐，广泛应用于各种语音处理场景。&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ai,audio,语音识别 on AI 工具导航</title><link>https://www.0x10ai.com/categories/aiaudio%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB/</link><description>Recent content in Ai,audio,语音识别 on AI 工具导航</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.0x10ai.com/categories/aiaudio%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB/index.xml" rel="self" type="application/rss+xml"/><item><title>Amazon Transcribe</title><link>https://www.0x10ai.com/aw/amazon-transcribe/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://www.0x10ai.com/aw/amazon-transcribe/</guid><description>&lt;h1 id="amazon-transcribe是什么"&gt;Amazon Transcribe是什么&lt;/h1&gt;
+&lt;p&gt;Amazon Transcribe是AWS提供的AI语音识别服务，能够将语音内容自动转换为文本。该服务利用先进的深度学习技术，支持多种语言和方言，具有高度的准确性和鲁棒性。Amazon Transcribe广泛应用于各种语音处理场景，如会议记录、客户服务、媒体内容分析等，是企业级语音识别的理想选择。&lt;/p&gt;</description></item><item><title>AssemblyAI</title><link>https://www.0x10ai.com/aw/assemblyai/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://www.0x10ai.com/aw/assemblyai/</guid><description>&lt;h1 id="assemblyai是什么"&gt;AssemblyAI是什么&lt;/h1&gt;
+&lt;p&gt;AssemblyAI是一个先进的AI语音识别和分析平台，提供高精度的语音转文本服务和丰富的音频分析功能。该平台利用最先进的深度学习技术，支持多种语言和复杂的音频分析任务，适用于各种语音处理场景。AssemblyAI以其出色的识别准确率、易于集成的API和丰富的功能而受到开发者和企业的青睐。&lt;/p&gt;</description></item><item><title>Google Speech-to-Text</title><link>https://www.0x10ai.com/aw/google-speech-to-text/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://www.0x10ai.com/aw/google-speech-to-text/</guid><description>&lt;h1 id="google-speech-to-text是什么"&gt;Google Speech-to-Text是什么&lt;/h1&gt;
+&lt;p&gt;Google Speech-to-Text是Google Cloud提供的AI语音识别服务，利用Google先进的深度学习技术将语音内容准确转换为文本。该服务支持多种语言和方言，具有高度的准确性和鲁棒性，适用于各种语音处理场景。Google Speech-to-Text以其强大的功能和全球覆盖而受到企业和开发者的青睐。&lt;/p&gt;</description></item><item><title>Microsoft Azure Speech-to-Text</title><link>https://www.0x10ai.com/aw/microsoft-azure-speech-to-text/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://www.0x10ai.com/aw/microsoft-azure-speech-to-text/</guid><description>&lt;h1 id="microsoft-azure-speech-to-text是什么"&gt;Microsoft Azure Speech-to-Text是什么&lt;/h1&gt;
+&lt;p&gt;Microsoft Azure Speech-to-Text是Microsoft Azure提供的AI语音识别服务，能够将语音内容准确转换为文本。该服务利用先进的深度学习技术，支持多种语言和方言，具有高度的准确性和鲁棒性。Azure Speech-to-Text广泛应用于各种语音处理场景，如语音助手、客户服务、会议记录等，是企业级语音识别的理想选择。&lt;/p&gt;</description></item><item><title>OpenAI Whisper</title><link>https://www.0x10ai.com/aw/openai-whisper/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://www.0x10ai.com/aw/openai-whisper/</guid><description>&lt;h1 id="openai-whisper是什么"&gt;OpenAI Whisper是什么&lt;/h1&gt;
+&lt;p&gt;OpenAI Whisper是OpenAI开发的先进AI语音识别模型，能够将语音内容准确转换为文本。该模型经过大规模多语言数据训练，支持多种语言的语音识别，具有高度的准确性和鲁棒性。OpenAI Whisper以其出色的性能和广泛的语言支持而受到研究者和开发者的青睐，广泛应用于各种语音处理场景。&lt;/p&gt;</description></item></channel></rss>
