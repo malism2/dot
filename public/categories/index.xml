@@ -2,10 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on AI 工具导航</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://webstack-hugo.weiyan.cc/categories/</link>
     <description>Recent content in Categories on AI 工具导航</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://webstack-hugo.weiyan.cc/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai,audio,语音合成</title>
+      <link>https://webstack-hugo.weiyan.cc/categories/aiaudio%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://webstack-hugo.weiyan.cc/categories/aiaudio%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai,audio,语音识别</title>
+      <link>https://webstack-hugo.weiyan.cc/categories/aiaudio%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://webstack-hugo.weiyan.cc/categories/aiaudio%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai,audio,音乐生成</title>
+      <link>https://webstack-hugo.weiyan.cc/categories/aiaudio%E9%9F%B3%E4%B9%90%E7%94%9F%E6%88%90/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://webstack-hugo.weiyan.cc/categories/aiaudio%E9%9F%B3%E4%B9%90%E7%94%9F%E6%88%90/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai,audio,音频编辑</title>
+      <link>https://webstack-hugo.weiyan.cc/categories/aiaudio%E9%9F%B3%E9%A2%91%E7%BC%96%E8%BE%91/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://webstack-hugo.weiyan.cc/categories/aiaudio%E9%9F%B3%E9%A2%91%E7%BC%96%E8%BE%91/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai,audio,语音合成 on AI 工具导航</title>
+    <link>https://webstack-hugo.weiyan.cc/categories/aiaudio%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90/</link>
+    <description>Recent content in Ai,audio,语音合成 on AI 工具导航</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://webstack-hugo.weiyan.cc/categories/aiaudio%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazon Polly</title>
+      <link>https://webstack-hugo.weiyan.cc/aw/amazon-polly/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://webstack-hugo.weiyan.cc/aw/amazon-polly/</guid>
+      <description>&lt;h1 id=&#34;amazon-polly是什么&#34;&gt;Amazon Polly是什么&lt;/h1&gt;&#xA;&lt;p&gt;Amazon Polly是AWS提供的AI语音合成服务，利用先进的深度学习技术将文本转换为自然流畅的语音。该服务支持多种语言和声音，具有高度的可定制性和扩展性，广泛应用于各种商业和开发场景。Amazon Polly以其稳定可靠的性能、丰富的功能和灵活的部署选项而受到企业和开发者的欢迎。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ElevenLabs</title>
+      <link>https://webstack-hugo.weiyan.cc/aw/elevenlabs/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://webstack-hugo.weiyan.cc/aw/elevenlabs/</guid>
+      <description>&lt;h1 id=&#34;elevenlabs是什么&#34;&gt;ElevenLabs是什么&lt;/h1&gt;&#xA;&lt;p&gt;ElevenLabs是一个先进的AI语音合成平台，利用深度学习技术生成自然流畅、情感丰富的语音内容。该平台以其高度逼真的语音生成能力而闻名，能够模拟人类语音的各种细微差别，包括语调、语速和情感表达。ElevenLabs支持多种语言和口音，适用于各种音频内容创建场景，如播客、有声书、视频旁白、游戏配音等。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google Text-to-Speech</title>
+      <link>https://webstack-hugo.weiyan.cc/aw/google-text-to-speech/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://webstack-hugo.weiyan.cc/aw/google-text-to-speech/</guid>
+      <description>&lt;h1 id=&#34;google-text-to-speech是什么&#34;&gt;Google Text-to-Speech是什么&lt;/h1&gt;&#xA;&lt;p&gt;Google Text-to-Speech是Google Cloud提供的AI语音合成服务，利用Google先进的深度学习技术将文本转换为自然流畅的语音。该服务支持多种语言和声音，具有高度的可定制性和扩展性，广泛应用于各种商业和开发场景。Google Text-to-Speech以其稳定可靠的性能和高质量的语音输出而受到企业和开发者的青睐。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Microsoft Azure Speech</title>
+      <link>https://webstack-hugo.weiyan.cc/aw/microsoft-azure-speech/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://webstack-hugo.weiyan.cc/aw/microsoft-azure-speech/</guid>
+      <description>&lt;h1 id=&#34;microsoft-azure-speech是什么&#34;&gt;Microsoft Azure Speech是什么&lt;/h1&gt;&#xA;&lt;p&gt;Microsoft Azure Speech是Microsoft Azure提供的综合AI语音服务，包括语音转文本、文本转语音、语音翻译和语音识别等功能。该服务利用先进的深度学习技术，提供高质量、可靠的语音处理能力，适用于各种商业和开发场景。Azure Speech以其丰富的功能集、全球覆盖和易于集成的特点而受到企业和开发者的青睐。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

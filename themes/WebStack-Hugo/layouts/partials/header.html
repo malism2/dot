@@ -42,12 +42,17 @@
     </script>
     <!-- end 百度统计 -->
 
-    <!-- 51.LA 网站统计 -->
-    {{ with .Site.Params.seo.tj51laid }}
-    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-    <script>LA.init({id:"{{ $.Site.Params.seo.tj51laid }}",ck:"{{ $.Site.Params.seo.tj51lack }}"})</script>    
+    <!-- google 网站统计 -->
+    {{ with .Site.Params.seo.gtag }}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ $.Site.Params.seo.gtag }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ $.Site.Params.seo.gtag }}');
+    </script>    
     {{ end }} 
-    <!-- end 51.LA 网站统计 -->
+    <!-- end google 网站统计 -->
 
     <!-- Google AdSense -->
     {{ if .Site.Params.seo.GoogleAdsClient }}

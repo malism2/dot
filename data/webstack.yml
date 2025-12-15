@@ -3,625 +3,802 @@
 - taxonomy: 热门工具
   icon: far fa-star
   links: 
+    - title: ChatGPT
+      logo: https://favicon.im/zh/chatgpt.com//?larger=true
+      url: "./aw/chatgpt"
+      description: OpenAI 推出的AI聊天机器人
     - title: DeepSeek
-      logo: 语雀.webp
-      url: https://www.deepseek.com/
-      description: 幻方量化旗下深度求索推出的开源大模型和聊天助手
+      logo: https://www.google.com/s2/favicons?sz=64&domain=deepseek.com
+      url: "./aw/deepseek"
+      description: 幻方量化旗下深度求索推出的开源大模型和智能助手
     - title: 腾讯元宝
-      logo: qq邮箱.png
-      url: https://yuanbao.tencent.com/
+      logo: https://favicon.im/zh/yuanbao.tencent.com?larger=true
+      url: "./aw/yuanbao"
       description: 腾讯推出的免费AI智能助手
     - title: 豆包
-      logo: 开源中国.jpg
-      url: https://www.doubao.com/
+      logo: https://www.google.com/s2/favicons?sz=64&domain=doubao.com
+      url: "./aw/doubao"
       description: 字节跳动推出的AI对话
     - title: Kimi
-      logo: 微信公众号.png
-      url: https://kimi.moonshot.cn/
+      logo: https://www.google.com/s2/favicons?sz=64&domain=kimi.moonshot.cn
+      url: "./aw/kimi"
       description: 月之暗面Moonshot AI推出的聊天机器人
-    - title: GitHub
-      logo: github.png
-      url: https://github.com/
-      description: GitHub 开源社区。
-    - title: 搜狗微信
-      logo: 搜狗微信.jpg
-      url: https://weixin.sogou.com/
-      description: 搜狗微信搜索，一搜即达。
-    - title: 知乎
-      logo: 知乎.png
-      url: https://www.zhihu.com/
-      description: 知乎社区。
-    - title: V2EX
-      logo: v2ex.jpg
-      url: https://www.v2ex.com/
-      description: V2EX 创意工作者的社区。
-    - title: 关注我们
-      logo: 关注.jpg
-      url: https://www.bioitee.com
-      qrcode: qrcode.jpg
-      description: 微信公众号：BioIT 爱好者！
+    - title: 文心一言
+      logo: https://favicon.im/zh/yiyan.baidu.com/?larger=true
+      url: "./aw/yiyan"
+      description: 百度推出的AI对话
+    - title: 千问
+      logo: https://favicon.im/zh/chat.qwen.ai/?larger=true
+      url: "./aw/qwen"
+      description: 阿里千问AI对话
+    - title: 美图设计室
+      logo: https://favicon.im/zh/designkit.com/?larger=true
+      url: ./aw/designkit
+      description: AI 图像创作和设计平台
+    - title: 可灵AI
+      logo: https://favicon.im/zh/app.klingai.com/?larger=true
+      url: "./aw/klingai"
+      description: 快手推出的AI图像和视频创作平台
 
 
-- taxonomy: 图像生成
-  icon: fas fa-flask fa-lg
+- taxonomy: 智能体
+  icon: fas fa-robot
   list:
-    - term: 生物信息
+    - term: 智能体开发平台
       links:
-        - title: NCBI
-          logo: ncbi.jpg
-          url: https://www.ncbi.nlm.nih.gov/
-          description: National Center for Biotechnology Information.
-        - title: Bioconda
-          logo: bioconda.jpg
-          url: https://anaconda.org/bioconda/
-          description: "Bioconda :: Anaconda.org."
-        - title: CPAN
-          logo: cpan.jpg
-          url: https://metacpan.org/
-          description: Search the CPAN.
-        - title: Galaxy Project
-          logo: galaxy_project.png
-          url: https://galaxyproject.org/
-          description: Galaxy Community Hub.
-        - title: R Project
-          logo: r-project.jpg
-          url: https://www.r-project.org/
-          description: https://www.r-project.org
-        - title: Bioconductor
-          logo: bioconductor.jpg
-          url: http://www.bioconductor.org/
-          description: http://www.bioconductor.org
-    - term: 云服务器
+        - title: LangChain
+          logo: https://www.google.com/s2/favicons?sz=64&domain=langchain.com
+          url: ./aw/langchain
+          description: 构建AI智能体的开发框架
+        - title: LlamaIndex
+          logo: https://www.google.com/s2/favicons?sz=64&domain=llamaindex.ai
+          url: ./aw/llamaindex
+          description: 连接LLM与外部数据的智能体框架
+        - title: OpenAI Assistant API
+          logo: https://favicon.im/openai.com/?larger=true
+          url: ./aw/openai-assistant
+          description: OpenAI官方智能助手开发API
+        - title: Claude Agent API
+          logo: https://www.google.com/s2/favicons?sz=64&domain=anthropic.com
+          url: ./aw/claude-agent
+          description: Anthropic的智能体开发API
+        - title: Mistral Agent
+          logo: https://www.google.com/s2/favicons?sz=64&domain=mistral.ai
+          url: ./aw/mistral-agent
+          description: Mistral AI的智能体平台
+    - term: 多智能体系统
       links:
-        - title: 阿里云
-          logo: 阿里云.jpg
-          url: https://www.aliyun.com/
-          description: 上云就上阿里云。
-        - title: 腾讯云
-          logo: 腾讯云.webp
-          url: https://cloud.tencent.com/
-          description: 产业智变，云启未来。
-        - title: 华为云
-          logo: 华为云.png
-          url: https://www.huaweicloud.com/
-          description: 提供云计算服务+智能，见未来-华为云。
-        - title: 云筏科技
-          logo: 云筏.png
-          url: https://www.cloudraft.cn/
-          description: 你的生信科研好选择。
-        - title: 极云普惠云电脑
-          logo: 极云普惠云电脑.png
-          url: https://www.ji-cloud.cn/
-          description: 云电脑-云游戏-手机变电脑软件。
-        - title: 青椒云
-          logo: 青椒云.jpg
-          url: https://www.qingjiaocloud.com/
-          description: 云桌面,一站式云电脑服务平台。
-    - term: 办公学习
+        - title: CrewAI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=crewai.com
+          url: ./aw/crewai
+          description: 多智能体协作平台
+        - title: AutoGen
+          logo: https://www.google.com/s2/favicons?sz=64&domain=microsoft.com
+          url: ./aw/autogen
+          description: Microsoft开源的多智能体框架
+        - title: MetaGPT
+          logo: https://www.google.com/s2/favicons?sz=64&domain=github.com
+          url: ./aw/metagpt
+          description: 基于角色的多智能体协作框架
+        - title: LangGraph
+          logo: https://www.google.com/s2/favicons?sz=64&domain=langchain.com
+          url: ./aw/langgraph
+          description: 构建状态化多智能体系统的框架
+        - title: AgentBuilder
+          logo: https://www.google.com/s2/favicons?sz=64&domain=agentbuilder.ai
+          url: ./aw/agentbuilder
+          description: 可视化多智能体构建平台
+    - term: 自主智能体
       links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-        - title: 有道翻译
-          logo: 有道词典.png
-          url: http://fanyi.youdao.com/
-          description: 有道翻译。
-        - title: 谷歌翻译
-          logo: 谷歌翻译.jpg
-          url: https://translate.google.cn/
-          description: 谷歌翻译。
-        - title: ProcessOn
-          logo: ProcessOn.png
-          url: https://www.processon.com/
-          description: 免费在线作图、实时协作。
+        - title: AutoGPT
+          logo: https://www.google.com/s2/favicons?sz=64&domain=agpt.co
+          url: ./aw/autogpt
+          description: 自主运行的AI智能体
+        - title: AgentGPT
+          logo: https://www.google.com/s2/favicons?sz=64&domain=agentgpt.reworkd.ai
+          url: ./aw/agentgpt
+          description: 基于浏览器的自主智能体构建工具
+        - title: BabyAGI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=github.com
+          url: ./aw/babyagi
+          description: 原始的自主智能体实现
+        - title: SuperAGI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=superagi.com
+          url: ./aw/superagi
+          description: 企业级自主智能体平台
+        - title: Jarvis
+          logo: https://www.google.com/s2/favicons?sz=64&domain=github.com
+          url: ./aw/jarvis
+          description: Facebook的AI助手框架
+    - term: 任务型智能体
+      links:
+        - title: Devin
+          logo: https://www.google.com/s2/favicons?sz=64&domain=cognition-labs.com
+          url: ./aw/devin
+          description: 用于软件开发的AI智能体
+        - title: Agentic
+          logo: https://www.google.com/s2/favicons?sz=64&domain=agentic.ai
+          url: ./aw/agentic
+          description: 专注于数据任务的AI智能体
+        - title: Adept
+          logo: https://www.google.com/s2/favicons?sz=64&domain=adept.ai
+          url: ./aw/adept
+          description: 用于复杂任务的AI智能体
+        - title: xAI Grok
+          logo: https://www.google.com/s2/favicons?sz=64&domain=x.ai
+          url: ./aw/xai-grok
+          description: Elon Musk的AI智能助手
+        - title: Perplexity AI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=perplexity.ai
+          url: ./aw/perplexity-ai
+          description: 专注于搜索和信息获取的智能体
+    - term: 智能体工具集
+      links:
+        - title: Toolformer
+          logo: https://www.google.com/s2/favicons?sz=64&domain=arxiv.org
+          url: ./aw/toolformer
+          description: 让语言模型使用工具的框架
+        - title: Function Calling
+          logo: https://favicon.im/openai.com/?larger=true
+          url: ./aw/function-calling
+          description: OpenAI的函数调用功能
+        - title: Tavily
+          logo: https://www.google.com/s2/favicons?sz=64&domain=tavily.com
+          url: ./aw/tavily
+          description: 为AI智能体设计的搜索引擎
+        - title: LangSmith
+          logo: https://www.google.com/s2/favicons?sz=64&domain=smith.langchain.com
+          url: ./aw/langsmith
+          description: 智能体开发和监控平台
+        - title: Vectara
+          logo: https://www.google.com/s2/favicons?sz=64&domain=vectara.com
+          url: ./aw/vectara
+          description: 为智能体提供语义搜索功能
         
 
-- taxonomy: 悠闲娱乐
-  icon: fas fa-film fa-lg
+- taxonomy: 编程工具
+  icon: fas fa-code
   list:
-    - term: 影音视频
+    - term: AI编程助手
       links:
-        - title: 腾讯视频
-          logo: 腾讯视频.png
-          url: http://v.qq.com/
-          description: 腾讯视频，海量视频在线观看。
-        - title: 优酷
-          logo: 优酷.png
-          url: http://www.youku.com/
-          description: 优酷 - 这个世界很酷。
-        - title: 爱奇艺
-          logo: 爱奇艺.png
-          url: https://www.iqiyi.com/
-          description: 爱奇艺在线视频。
-        - title: 哔哩哔哩
-          logo: 哔哩哔哩.png
-          url: https://www.bilibili.com/
-          description: Bilibili 视频弹幕网站。
-        - title: QQ 音乐
-          logo: QQ音乐.jpg
-          url: https://y.qq.com/
-          description: QQ 音乐，在线听歌。
-        - title: 网易云音乐
-          logo: 网易云音乐.jpg
-          url: https://music.163.com/
-          description: 163 网易云音乐。
-    - term: 游戏竞技
+        - title: GitHub Copilot
+          logo: https://www.google.com/s2/favicons?sz=64&domain=github.com
+          url: ./aw/github-copilot
+          description: GitHub和OpenAI合作开发的AI编程助手
+        - title: Amazon CodeWhisperer
+          logo: https://www.google.com/s2/favicons?sz=64&domain=aws.amazon.com
+          url: ./aw/amazon-codewhisperer
+          description: AWS的AI代码生成和补全工具
+        - title: Tabnine
+          logo: https://www.google.com/s2/favicons?sz=64&domain=tabnine.com
+          url: ./aw/tabnine
+          description: 基于AI的代码补全工具
+        - title: CodeLlama
+          logo: https://www.google.com/s2/favicons?sz=64&domain=meta.com
+          url: ./aw/codellama
+          description: Meta开源的代码生成大模型
+        - title: StarCoder
+          logo: https://www.google.com/s2/favicons?sz=64&domain=bigcode-project.org
+          url: ./aw/starcoder
+          description: 开源的代码生成大模型
+    - term: AI代码生成与补全
       links:
-        - title: 百度贴吧
-          logo: 百度贴吧.jpg
-          url: ttps://tieba.baidu.com/index.html
-          description: 百度贴吧。
-        - title: 台服战地
-          logo: 战地之王.png
-          url: https://ava.mangot5.com/ava/index
-          description: 台服 AVA 战地之王。
+        - title: OpenAI Code Interpreter
+          logo: https://favicon.im/openai.com/?larger=true
+          url: ./aw/openai-code-interpreter
+          description: OpenAI的代码生成和执行工具
+        - title: Anthropic Claude Code
+          logo: https://www.google.com/s2/favicons?sz=64&domain=anthropic.com
+          url: ./aw/anthropic-claude-code
+          description: Anthropic的代码生成和分析工具
+        - title: Replit Ghostwriter
+          logo: https://www.google.com/s2/favicons?sz=64&domain=replit.com
+          url: ./aw/replit-ghostwriter
+          description: Replit的AI代码生成工具
+        - title: Codeium
+          logo: https://www.google.com/s2/favicons?sz=64&domain=codeium.com
+          url: ./aw/codeium
+          description: 免费的AI代码补全工具
+        - title: Sourcegraph Cody
+          logo: https://www.google.com/s2/favicons?sz=64&domain=sourcegraph.com
+          url: ./aw/sourcegraph-cody
+          description: Sourcegraph的AI代码助手
+    - term: AI开发框架
+      links:
+        - title: TensorFlow
+          logo: https://www.google.com/s2/favicons?sz=64&domain=tensorflow.org
+          url: https://www.tensorflow.org/
+          description: Google开源的机器学习框架
+        - title: PyTorch
+          logo: https://www.google.com/s2/favicons?sz=64&domain=pytorch.org
+          url: https://pytorch.org/
+          description: Facebook开源的深度学习框架
+        - title: Keras
+          logo: https://www.google.com/s2/favicons?sz=64&domain=keras.io
+          url: https://keras.io/
+          description: 高级神经网络API
+        - title: Hugging Face Transformers
+          logo: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
+          url: https://huggingface.co/docs/transformers/index
+          description: Hugging Face的预训练模型库
+        - title: JAX
+          logo: https://www.google.com/s2/favicons?sz=64&domain=jax.readthedocs.io
+          url: https://jax.readthedocs.io/
+          description: Google的高性能数值计算库
+    - term: 机器学习开发工具
+      links:
+        - title: Jupyter Notebook
+          logo: https://www.google.com/s2/favicons?sz=64&domain=jupyter.org
+          url: https://jupyter.org/
+          description: 交互式计算环境
+        - title: Google Colab
+          logo: https://www.google.com/s2/favicons?sz=64&domain=colab.research.google.com
+          url: https://colab.research.google.com/
+          description: Google的云端Jupyter环境
+        - title: Kaggle
+          logo: https://www.google.com/s2/favicons?sz=64&domain=kaggle.com
+          url: https://www.kaggle.com/
+          description: 数据科学和机器学习平台
+        - title: MLflow
+          logo: https://www.google.com/s2/favicons?sz=64&domain=mlflow.org
+          url: https://mlflow.org/
+          description: 机器学习生命周期管理工具
+        - title: TensorBoard
+          logo: https://www.google.com/s2/favicons?sz=64&domain=tensorflow.org
+          url: https://www.tensorflow.org/tensorboard
+          description: 机器学习可视化工具
+    - term: 数据处理与分析
+      links:
+        - title: Pandas
+          logo: https://www.google.com/s2/favicons?sz=64&domain=pandas.pydata.org
+          url: https://pandas.pydata.org/
+          description: Python数据处理库
+        - title: NumPy
+          logo: https://www.google.com/s2/favicons?sz=64&domain=numpy.org
+          url: https://numpy.org/
+          description: Python科学计算库
+        - title: Dask
+          logo: https://www.google.com/s2/favicons?sz=64&domain=dask.org
+          url: https://dask.org/
+          description: 大规模数据处理库
+        - title: Apache Spark
+          logo: https://www.google.com/s2/favicons?sz=64&domain=spark.apache.org
+          url: https://spark.apache.org/
+          description: 分布式数据处理框架
+        - title: Polars
+          logo: https://www.google.com/s2/favicons?sz=64&domain=pola.rs
+          url: https://pola.rs/
+          description: 高性能数据处理库
+    - term: AI模型部署与管理
+      links:
+        - title: TensorFlow Serving
+          logo: https://www.google.com/s2/favicons?sz=64&domain=tensorflow.org
+          url: https://www.tensorflow.org/tfx/guide/serving
+          description: TensorFlow模型部署服务
+        - title: PyTorch Serve
+          logo: https://www.google.com/s2/favicons?sz=64&domain=pytorch.org
+          url: https://pytorch.org/serve/
+          description: PyTorch模型部署工具
+        - title: Hugging Face Inference Endpoints
+          logo: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
+          url: https://huggingface.co/inference-endpoints
+          description: Hugging Face模型部署服务
+        - title: Kubernetes
+          logo: https://www.google.com/s2/favicons?sz=64&domain=kubernetes.io
+          url: https://kubernetes.io/
+          description: 容器编排平台，用于AI模型部署
+        - title: Docker
+          logo: https://www.google.com/s2/favicons?sz=64&domain=docker.com
+          url: https://www.docker.com/
+          description: 容器化平台，用于AI模型打包
+    - term: AI代码审查与优化
+      links:
+        - title: SonarQube AI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=sonarsource.com
+          url: https://www.sonarsource.com/products/sonarqube/features/ai/
+          description: AI驱动的代码质量分析工具
+        - title: DeepSource
+          logo: https://www.google.com/s2/favicons?sz=64&domain=deepsource.io
+          url: https://deepsource.io/
+          description: 基于AI的代码审查和分析工具
+        - title: CodeGuru Reviewer
+          logo: https://www.google.com/s2/favicons?sz=64&domain=aws.amazon.com
+          url: https://aws.amazon.com/codeguru/reviewer/
+          description: AWS的AI代码审查工具
+        - title: Snyk AI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=snyk.io
+          url: https://snyk.io/product/snyk-code/
+          description: AI驱动的代码安全扫描工具
+        - title: Codacy
+          logo: https://www.google.com/s2/favicons?sz=64&domain=codacy.com
+          url: https://www.codacy.com/
+          description: AI驱动的代码质量平台
    
       
-- taxonomy: 素材资源
-  icon: far fa-folder-open fa-lg
+- taxonomy: 视频工具
+  icon: far fa-play-circle
   list:
-    - term: 网盘资源
+    - term: AI视频生成工具
       links:
-        - title: 百度网盘
-          logo: 百度网盘.jpg
-          url: http://pan.baidu.com/
-          description: https://pan.baidu.com/.
-        - title: 阿里云盘
-          logo: 阿里云盘.png
-          url: https://www.aliyundrive.com/
-          description: 阿里云盘，你的数字世界。
-        - title: 天翼云盘
-          logo: 天翼云盘.jpg
-          url: https://cloud.189.cn/
-          description: 家庭云|网盘|文件备份|资源分享。
-        - title: 坚果云
-          logo: 坚果云.png
-          usrl: https://www.jianguoyun.com/
-          description: 坚果云官网。
-    - term: 图标素材
+        - title: Runway Gen-2
+          logo: https://www.google.com/s2/favicons?sz=64&domain=runwayml.com
+          url: ./aw/runway-ml-gen-2
+          description: 文本到视频生成的AI工具
+        - title: Synthesia
+          logo: https://www.google.com/s2/favicons?sz=64&domain=synthesia.io
+          url: ./aw/synthesia
+          description: AI视频生成和数字人制作平台
+        - title: Pika Labs
+          logo: https://www.google.com/s2/favicons?sz=64&domain=pika.art
+          url: ./aw/pika-labs
+          description: AI视频生成和编辑工具
+        - title: Stability AI Stable Video Diffusion
+          logo: https://www.google.com/s2/favicons?sz=64&domain=stability.ai
+          url: ./aw/stable-video-diffusion
+          description: 开源的AI视频生成模型
+        - title: HeyGen
+          logo: https://www.google.com/s2/favicons?sz=64&domain=heygen.com
+          url: ./aw/heygen
+          description: AI视频生成和数字人平台
+        - title: D-ID
+          logo: https://www.google.com/s2/favicons?sz=64&domain=d-id.com
+          url: ./aw/d-id
+          description: AI驱动的视频生成和数字人平台
+    - term: AI视频编辑工具
       links:
-        - title: Iconfinder
-          logo: Iconfinder.png
-          url: https://www.iconfinder.com
-          description: 2,100,000+ free and premium vector icons.
-        - title: iconfont
-          logo: iconfont.png
-          url: http://www.iconfont.cn/
-          description: 阿里巴巴矢量图标库。
-        - title: iconmonstr
-          logo: iconmonstr.png
-          url: https://iconmonstr.com/
-          description: Free simple icons for your next project.
-        - title: Icon Archive
-          logo: iconarchive.png
-          url: http://www.iconarchive.com/
-          description: Search 590,912 free icons.
-        - title: FindIcons
-          logo: FindIcons.png
-          url: https://findicons.com/
-          description: Search through 300,000 free icons.
-        - title: IcoMoonApp
-          logo: IcoMoonApp.png
-          url: https://icomoon.io/app/
-          description: Icon Font, SVG, PDF &amp; PNG Generator.
-        - title: easyicon
-          logo: easyicon.png
-          url: http://www.easyicon.net/
-          description: PNG、ICO、ICNS格式图标搜索、图标下载服务。
-        - title: flaticon
-          logo: flaticon.png
-          url: https://www.flaticon.com/
-          description: 634,000+ Free vector icons in SVG, PSD, PNG, EPS format or as ICON FONT.
-        - title: UICloud
-          logo: UICloud.png
-          url: http://ui-cloud.com/
-          description: The largest user interface design database in the world.
-        - title: Material icons
-          logo: Materialicons.png
-          url: https://material.io/icons/
-          description: Access over 900 material system icons, available in a variety of sizes and densities, and as a web font.
-        - title: Font Awesome Icon
-          logo: fontawesomeicon.png
-          url: https://fontawesome.com/icons/
-          description: The complete set of 675 icons in Font Awesome.
-        - title: ion icons
-          logo: ionicons.png
-          url: http://ionicons.com/
-          description: The premium icon font for Ionic Framework.
-        - title: Simpleline Icons
-          logo: simplelineicons.png
-          url: http://simplelineicons.com/
-          description: Simple line Icons pack.
-    - term: 图标设计
+        - title: Adobe Premiere Pro AI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=adobe.com
+          url: ./aw/adobe-premiere-pro-ai
+          description: 集成AI功能的专业视频编辑软件
+        - title: CapCut
+          logo: https://www.google.com/s2/favicons?sz=64&domain=capcut.com
+          url: ./aw/capcut
+          description: 抖音旗下的AI视频编辑工具
+        - title: DaVinci Resolve AI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=blackmagicdesign.com
+          url: ./aw/davinci-resolve-ai
+          description: 专业视频编辑软件，集成AI功能
+        - title: Descript
+          logo: https://www.google.com/s2/favicons?sz=64&domain=descript.com
+          url: ./aw/descript
+          description: AI驱动的视频和音频编辑工具
+        - title: VEED.IO
+          logo: https://www.google.com/s2/favicons?sz=64&domain=veed.io
+          url: ./aw/veed-io
+          description: AI增强的在线视频编辑工具
+        - title: Filmora AI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=wondershare.com
+          url: ./aw/filmora-ai
+          description: 集成AI功能的视频编辑软件
+    - term: AI视频增强工具
       links:
-        - title: Iconsfeed
-          logo: iconsfeed.png
-          url: http://www.iconsfeed.com/
-          description: iOS icons gallery.
-        - title: iOS Icon Gallery
-          logo: iosicongallery.png
-          url: http://iosicongallery.com/
-          description: Showcasing beautiful icon designs from the iOS App Store.
-        - title: World Vector Logo
-          logo: worldvectorlogo.png
-          url: https://worldvectorlogo.com/
-          description: Brand logos free to download.
-        - title: Instant Logo Search
-          logo: InstantLogoSearch.png
-          url: http://instantlogosearch.com/
-          description: Search & download thousands of logos instantly.
-    - term: 平面素材
+        - title: Topaz Video AI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=topazlabs.com
+          url: ./aw/topaz-video-ai
+          description: AI视频质量提升工具
+        - title: AVCLabs Video Enhancer AI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=avclabs.com
+          url: ./aw/avclabs-video-enhancer-ai
+          description: AI视频增强和放大工具
+        - title: Adobe Premiere Pro Enhance Speech
+          logo: https://www.google.com/s2/favicons?sz=64&domain=adobe.com
+          url: ./aw/adobe-premiere-pro-enhance-speech
+          description: AI语音增强功能
+        - title: Media.io AI Video Enhancer
+          logo: https://www.google.com/s2/favicons?sz=64&domain=media.io
+          url: ./aw/media-io-ai-video-enhancer
+          description: 在线AI视频增强工具
+        - title: Let's Enhance Video
+          logo: https://www.google.com/s2/favicons?sz=64&domain=letsenhance.io
+          url: ./aw/lets-enhance-video
+          description: AI视频质量提升工具
+    - term: AI视频分析工具
       links:
-        - title: freepik
-          logo: freepik.png
-          url: https://www.freepik.com/
-          description: More than a million free vectors, PSD, photos and free icons.
-        - title: wallhalla
-          logo: wallhalla.png
-          url: https://wallhalla.com/
-          description: Find awesome high quality wallpapers for desktop and mobile in one place.
-        - title: 365PSD
-          logo: 365PSD.png
-          url: https://365psd.com/
-          description: Free PSD &amp; Graphics, Illustrations.
-        - title: Medialoot
-          logo: Medialoot.png
-          url: https://medialoot.com/
-          description: Free &amp; Premium Design Resources &mdash; Medialoot.
-        - title: 千图网
-          logo: qiantu.png
-          url: http://www.58pic.com/
-          description: 专注免费设计素材下载的网站.
-        - title: 千库网
-          logo: qianku.png
-          url: http://588ku.com/
-          description: 免费 png 图片背景素材下载。
-        - title: 我图网
-          logo: wotu.png
-          url: http://www.ooopic.com/
-          description: 我图网，提供图片素材及模板下载，专注正版设计作品交易。
-        - title: 90 设计
-          logo: 90sheji.png
-          url: http://90sheji.com/
-          description: 电商设计（淘宝美工）千图免费淘宝素材库。
-        - title: 昵图网
-          logo: nipic.png
-          url: http://www.nipic.com/
-          description: 原创素材共享平台。
-        - title: 懒人图库
-          logo: lanrentuku.png
-          url: http://www.lanrentuku.com/
-          description: 懒人图库专注于提供网页素材下载。
-        - title: 素材搜索
-          logo: sousucai.png
-          url: http://so.ui001.com/
-          description: 设计素材搜索聚合。
-        - title: PS 饭团网
-          logo: psefan.png
-          url: http://psefan.com/
-          description: 不一样的设计素材库！让自己的设计与众不同！
-        - title: 素材中国
-          logo: sccnn.png
-          url: http://www.sccnn.com/
-          description: 免费素材共享平台。
-    - term: 字体资源
+        - title: Google Cloud Video Intelligence
+          logo: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
+          url: ./aw/google-cloud-video-intelligence
+          description: 视频内容分析AI服务
+        - title: Amazon Rekognition Video
+          logo: https://www.google.com/s2/favicons?sz=64&domain=aws.amazon.com
+          url: ./aw/amazon-rekognition-video
+          description: 视频分析和内容识别AI服务
+        - title: Microsoft Azure Video Indexer
+          logo: https://www.google.com/s2/favicons?sz=64&domain=azure.microsoft.com
+          url: ./aw/microsoft-azure-video-indexer
+          description: 视频内容分析和索引AI服务
+        - title: IBM Watson Video Enrichment
+          logo: https://www.google.com/s2/favicons?sz=64&domain=ibm.com
+          url: ./aw/ibm-watson-video-enrichment
+          description: AI视频内容分析服务
+        - title: Clarifai Video Recognition
+          logo: https://www.google.com/s2/favicons?sz=64&domain=clarifai.com
+          url: ./aw/clarifai-video-recognition
+          description: AI视频识别和分析服务
+    - term: AI视频字幕与翻译
       links:
-        - title: Google Font
-          url: https://fonts.google.com/
-          logo: googlefont.png
-          description: Making the web more beautiful, fast, and open through great typography.
-        - title: Typekit
-          url: https://typekit.com/
-          logo: typekit.png
-          description: Quality fonts from the world’s best foundries.
-        - title: 方正字库
-          url: http://www.foundertype.com/
-          logo: Fondertype.png
-          description: 方正字库官方网站。
-        - title: 字体传奇网
-          url: http://ziticq.com/
-          logo: ziticq.png
-          description: 中国首个字体品牌设计师交流网。
-        - title: 私藏字体
-          url: http://sicangziti.com/
-          logo: sicangziti.png
-          description: 优质字体免费下载站。
-        - title: Fontsquirrel
-          url: https://www.fontsquirrel.com/
-          logo: fontsquirrel.png
-          description: FREE fonts for graphic designers.
-        - title: Urban Fonts
-          url: https://www.urbanfonts.com/
-          logo: UrbanFonts.png
-          description: Download Free Fonts and Free Dingbats.
-        - title: Lost Type
-          url: http://www.losttype.com/
-          logo: losttype.png
-          description: Lost Type is a Collaborative Digital Type Foundry.
-        - title: FONTS2U
-          url: https://fonts2u.com/
-          logo: fonts2u.png
-          description: Download free fonts for Windows and Macintosh.
-        - title: Fontex
-          url: http://www.fontex.org/
-          logo: fontex.png
-          description: Free Fonts to Download + Premium Typefaces.
-        - title: FontM
-          url: http://fontm.com/
-          logo: FontM.png
-          description: Free Fonts
-        - title: My Fonts
-          url: http://www.myfonts.com/
-          logo: MyFonts.png
-          description: Fonts for Print, Products & Screens.
-        - title: Da Font
-          url: https://www.dafont.com/
-          logo: dafont.png
-          description: Archive of freely downloadable fonts.
-        - title: OnlineWebFonts
-          url: https://www.onlinewebfonts.com/
-          logo: OnlineWebFonts.png
-          description: WEB Free Fonts for Windows and Mac / Font free Download.
-        - title: Abstract Fonts
-          url: http://www.abstractfonts.com/
-          logo: abstractfonts.png
-          description: Abstract Fonts (13,866 free fonts).      
-      
+        - title: Otter.ai
+          logo: https://www.google.com/s2/favicons?sz=64&domain=otter.ai
+          url: ./aw/otter-ai
+          description: AI语音转文字和字幕生成工具
+        - title: Rev.com
+          logo: https://www.google.com/s2/favicons?sz=64&domain=rev.com
+          url: ./aw/rev-com
+          description: 视频字幕生成和翻译服务
+        - title: Descript Auto Subtitles
+          logo: https://www.google.com/s2/favicons?sz=64&domain=descript.com
+          url: ./aw/descript
+          description: AI自动字幕生成工具
+        - title: Amara
+          logo: https://www.google.com/s2/favicons?sz=64&domain=amara.org
+          url: ./aw/amara
+          description: 视频字幕生成和翻译平台
+        - title: Kapwing Auto Subtitle Generator
+          logo: https://www.google.com/s2/favicons?sz=64&domain=kapwing.com
+          url: ./aw/kapwing-auto-subtitle-generator
+          description: AI自动字幕生成工具
+    - term: AI视频特效工具
+      links:
+        - title: Adobe After Effects AI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=adobe.com
+          url: ./aw/adobe-after-effects-ai
+          description: 集成AI功能的专业特效软件
+        - title: Runway ML
+          logo: https://www.google.com/s2/favicons?sz=64&domain=runwayml.com
+          url: ./aw/runway-ml
+          description: AI视频特效和生成平台
+        - title: Boris FX Sapphire AI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=borisfx.com
+          url: ./aw/boris-fx-sapphire-ai
+          description: AI视频特效插件
+        - title: Red Giant Magic Bullet Suite
+          logo: https://www.google.com/s2/favicons?sz=64&domain=redgiant.com
+          url: ./aw/red-giant-magic-bullet-suite
+          description: AI视频调色和特效工具
+        - title: HitFilm Pro AI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=fxhome.com
+          url: ./aw/hitfilm-pro-ai
+          description: 集成AI功能的视频特效软件
+    - term: AI直播辅助工具
+      links:
+        - title: Restream AI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=restream.io
+          url: ./aw/restream-ai
+          description: AI直播辅助工具
+        - title: Streamlabs AI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=streamlabs.com
+          url: ./aw/streamlabs-obs
+          description: AI直播增强工具
+        - title: ManyCam AI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=manycam.com
+          url: ./aw/manycam-ai
+          description: AI视频直播工具
+        - title: OBS Studio AI Plugins
+          logo: https://www.google.com/s2/favicons?sz=64&domain=obsproject.com
+          url: ./aw/obs-studio-ai-plugin
+          description: AI增强的开源直播软件
+        - title: XSplit AI
+          logo: https://www.google.com/s2/favicons?sz=64&domain=xsplit.com
+          url: ./aw/xsplit-ai
+          description: AI直播辅助工具
 
-- taxonomy: 开发设计
-  icon: fas fa-tools fa-lg
+- taxonomy: 图片工具
+  icon: fas fa-image
   list: 
-    - term: 图形创意
+    - term: AI图片生成工具
       links:
-        - title: photoshop
-          url: https://www.adobe.com/cn/products/photoshop.html
-          logo: photoshop.png
-          description: Photoshop不需要解释
-        - title: Affinity Designer
-          url: https://affinity.serif.com/
-          logo: AffinityDesigner.png
-          description: 专业创意软件
-        - title: Illustrator
-          url: https://www.adobe.com/cn/products/illustrator/
-          logo: Illustrator.png
-          description: 矢量图形和插图。
-        - title: indesign
-          url: http://www.adobe.com/cn/products/indesign.html
-          logo: INDESIGN .png
-          description: 页面设计、布局和出版。
-        - title: cinema-4d
-          url: https://www.maxon.net/en/products/cinema-4d/overview/
-          logo: cinema4d.png
-          description: Cinema 4D is the perfect package for all 3D artists who want to achieve breathtaking results fast and hassle-free.
-        - title: 3ds-max
-          url: https://www.autodesk.com/products/3ds-max/overview
-          logo: 3dsmax.png
-          description: 3D modeling, animation, and rendering software
-        - title: Blender
-          url: https://www.blender.org/
-          logo: blender.png
-          description: Blender is the free and open source 3D creation suite.
-    - term: 界面设计
+        - title: DALL-E 3
+          url: ./aw/dall-e-3
+          logo: https://www.google.com/s2/favicons?sz=64&domain=openai.com
+          description: OpenAI的文本到图像生成模型
+        - title: Midjourney
+          url: ./aw/midjourney
+          logo: https://www.google.com/s2/favicons?sz=64&domain=midjourney.com
+          description: 强大的AI图像生成平台
+        - title: Stable Diffusion
+          url: ./aw/stable-diffusion
+          logo: https://www.google.com/s2/favicons?sz=64&domain=stability.ai
+          description: 开源的AI图像生成模型
+        - title: Adobe Firefly
+          url: ./aw/adobe-firefly
+          logo: https://www.google.com/s2/favicons?sz=64&domain=adobe.com
+          description: 专为创意工作流程设计的AI图像生成工具
+        - title: Leonardo AI
+          url: ./aw/leonardo-ai
+          logo: https://www.google.com/s2/favicons?sz=64&domain=leonardo.ai
+          description: 专注于游戏和创意内容的AI图像生成平台
+        - title: Bing Image Creator
+          url: ./aw/bing-image-creator
+          logo: https://www.google.com/s2/favicons?sz=64&domain=bing.com
+          description: Microsoft的AI图像生成工具
+    - term: AI图片编辑工具
       links:
-        - title: Sketch
-          url: https://sketchapp.com/
-          logo: sketchapp.png
-          description: The digital design toolkit
-        - title: Adobe XD
-          url: http://www.adobe.com/products/xd.html
-          logo: ADOBEXDCC.png
-          description: Introducing Adobe XD. Design. Prototype. Experience.
-        - title: invisionapp
-          url: https://www.invisionapp.com/
-          logo: invisionapp.png
-          description: Powerful design prototyping tools
-        - title: marvelapp
-          url: https://marvelapp.com/
-          logo: marvelapp.png
-          description: Simple design, prototyping and collaboration
-        - title: Muse CC
-          url: https://creative.adobe.com/zh-cn/products/download/muse
-          logo: MuseCC.png
-          description: 无需利用编码即可进行网站设计。
-        - title: figma
-          url: https://www.figma.com/
-          logo: figma.png
-          description: Design, prototype, and gather feedback all in one place with Figma.
-    - term: 在线配色
+        - title: Photoshop AI
+          url: ./aw/photoshop-ai
+          logo: https://www.google.com/s2/favicons?sz=64&domain=adobe.com
+          description: 集成AI功能的专业图片编辑软件
+        - title: Canva AI
+          url: ./aw/canva-ai
+          logo: https://www.google.com/s2/favicons?sz=64&domain=canva.com
+          description: AI增强的在线设计工具
+        - title: Luminar Neo
+          url: ./aw/luminar-neo
+          logo: https://www.google.com/s2/favicons?sz=64&domain=skylum.com
+          description: AI驱动的图片编辑和增强软件
+        - title: Pixlr AI
+          url: ./aw/pixlr-ai
+          logo: https://www.google.com/s2/favicons?sz=64&domain=pixlr.com
+          description: AI增强的在线图片编辑工具
+        - title: Picsart AI
+          url: ./aw/picsart-ai
+          logo: https://www.google.com/s2/favicons?sz=64&domain=picsart.com
+          description: AI驱动的创意图片编辑平台
+    - term: AI图片增强工具
       links:
-        - title: khroma
-          url: http://khroma.co/generator/
-          logo: khroma.png
-          description: Khroma is the fastest way to discover, search, and save color combos you'll want to use.
-        - title: uigradients
-          url: https://uigradients.com
-          logo: uigradients.png
-          description: Beautiful colored gradients.
-        - title: gradients
-          url: http://gradients.io/
-          logo: gradients.png
-          description: Curated gradients for designers and developers.
-        - title: Coolest
-          url: https://webkul.github.io/coolhue/
-          logo: Coolest.png
-          description: Coolest handpicked Gradient Hues for your next super ⚡ amazing stuff.
-        - title: webgradients
-          url: https://webgradients.com/
-          logo: webgradients.png
-          description: WebGradients is a free collection of 180 linear gradients that you can use as content backdrops in any part of your website. 
-        - title: grabient
-          url: https://www.grabient.com/
-          logo: grabient.png
-          description: 2017 Grabient by unfold.
-        - title: thedayscolor
-          url: http://www.thedayscolor.com/
-          logo: thedayscolor.png
-          description: The daily color digest
-        - title: flatuicolors
-          url: http://flatuicolors.com/
-          logo: flatuicolors.png
-          description: Copy Paste Color Pallette from Flat UI Theme.
-        - title: coolors
-          url: https://coolors.co/
-          logo: coolors.png
-          description: The super fast color schemes generator!
-        - title: colorhunt
-          url: http://www.colorhunt.co/
-          logo: colorhunt.png
-          description: Beautiful Color Palettes.
-        - title: Adobe Color CC
-          url: https://color.adobe.com/zh/create/color-wheel
-          logo: AdobeColorCC.png
-          description: Create color schemes with the color wheel or browse thousands of color combinations from the Color community.
-        - title: flatuicolorpicker
-          url: http://www.flatuicolorpicker.com/
-          logo: flatuicolorpicker.png
-          description: Best Flat Colors For UI Design.
-        - title: trianglify
-          url: http://qrohlf.com/trianglify-generator/
-          logo: trianglify.png
-          description: Trianglify Generator.
-        - title: klart
-          url: https://klart.co/colors/
-          logo: klart.png
-          description: Beautiful colors and designs to your inbox every week.
-        - title: vanschneider
-          url: http://www.vanschneider.com/colors
-          logo: vanschneider.png
-          description: Color Claim was created in 2012 by Tobias van Schneider with the goal to collect & combine unique colors for my future projects.
-    - term: 在线工具
+        - title: Topaz Photo AI
+          url: ./aw/topaz-photo-ai
+          logo: https://www.google.com/s2/favicons?sz=64&domain=topazlabs.com
+          description: AI图片质量提升工具
+        - title: Let's Enhance
+          url: ./aw/lets-enhance
+          logo: https://www.google.com/s2/favicons?sz=64&domain=letsenhance.io
+          description: AI图像增强和放大工具
+        - title: Gigapixel AI
+          url: ./aw/gigapixel-ai
+          logo: https://www.google.com/s2/favicons?sz=64&domain=topazlabs.com
+          description: AI图像放大工具
+        - title: Enhance AI
+          url: ./aw/enhance-ai
+          logo: https://www.google.com/s2/favicons?sz=64&domain=enhance.photos
+          description: 在线AI图像增强工具
+        - title: FaceApp
+          url: ./aw/faceapp
+          logo: https://www.google.com/s2/favicons?sz=64&domain=faceapp.com
+          description: AI人脸编辑和增强应用
+    - term: AI图片抠图工具
       links:
-        - title: tinypng
-          url: https://tinypng.com/
-          logo: tinypng.png
-          description: Optimize your images with a perfect balance in quality and file size.
-        - title: goqr
-          url: http://goqr.me/
-          logo: goqr.png
-          description: create QR codes for free (Logo, T-Shirt, vCard, EPS).
-        - title: ezgif
-          url: https://ezgif.com
-          logo: ezgif.png
-          description: simple online GIF maker and toolset for basic animated GIF editing.
-        - title: Android 9 patch
-          url: http://inloop.github.io/shadow4android/
-          logo: Android9patch.png
-          description: Android 9-patch shadow generator fully customizable shadows.
-        - title: screen sizes
-          url: http://screensiz.es/
-          logo: screensizes.png
-          description: Viewport Sizes and Pixel Densities for Popular Devices.
-        - title: svgomg
-          url: https://jakearchibald.github.io/svgomg/
-          logo: svgomg.png
-          description: SVG 在线压缩平台。
+        - title: Remove.bg
+          url: ./aw/remove-bg
+          logo: https://www.google.com/s2/favicons?sz=64&domain=remove.bg
+          description: AI自动背景移除工具
+        - title: Magic Eraser
+          url: ./aw/magic-eraser
+          logo: https://www.google.com/s2/favicons?sz=64&domain=magiceraser.io
+          description: AI图像擦除工具
+        - title: Clipdrop Remove Background
+          url: ./aw/clipdrop-remove-background
+          logo: https://www.google.com/s2/favicons?sz=64&domain=clipdrop.co
+          description: AI背景移除和图像编辑工具
+        - title: Unscreen
+          url: ./aw/unscreen
+          logo: https://www.google.com/s2/favicons?sz=64&domain=unscreen.com
+          description: AI视频背景移除工具
         - title: 稿定抠图
-          url: https://www.gaoding.com
-          logo: gaoding.png
-          description: 免费在线抠图软件,图片快速换背景-抠白底图。
-        
-    - term: 谷歌插件
+          url: ./aw/gaoding-koutu
+          logo: https://www.google.com/s2/favicons?sz=64&domain=gaoding.com
+          description: 免费在线AI抠图软件
+    - term: AI图片风格转换
       links:
-        - title: wappalyzer
-          url: https://www.wappalyzer.com/
-          logo: wappalyzer.png
-          description: Identify technology on websites.
-        - title: Panda
-          url: http://usepanda.com/
-          logo: usepanda.png
-          description: A smart news reader built for productivity.
-        - title: sizzy
-          url: https://sizzy.co/
-          logo: sizzy.png
-          description: A tool for developing responsive websites crazy-fast.
-        - title: csspeeper
-          url: https://csspeeper.com/
-          logo: csspeeper.png
-          description: Smart CSS viewer tailored for Designers.
-        - title: insight
-          url: http://insight.io/
-          logo: insight.png
-          description: IDE-like code search and navigation, on the cloud.
-        - title: mustsee
-          url: http://mustsee.earth/
-          logo: mustsee.png
-          description: Discover the world's most beautiful places at every opened tab.
+        - title: DeepArt.io
+          url: ./aw/deepart-io
+          logo: https://www.google.com/s2/favicons?sz=64&domain=deepart.io
+          description: AI艺术风格转换工具
+        - title: Prisma
+          url: ./aw/prisma
+          logo: https://www.google.com/s2/favicons?sz=64&domain=prisma-ai.com
+          description: AI照片艺术风格转换应用
+        - title: ArtBreeder
+          url: ./aw/artbreeder
+          logo: https://www.google.com/s2/favicons?sz=64&domain=artbreeder.com
+          description: AI艺术生成和风格混合平台
+        - title: Neural Style Transfer
+          url: ./aw/neural-style-transfer
+          logo: https://www.google.com/s2/favicons?sz=64&domain=neural-style-transfer.com
+          description: AI神经风格转换工具
+        - title: Runway ML
+          url: ./aw/runway-ml
+          logo: https://www.google.com/s2/favicons?sz=64&domain=runwayml.com
+          description: AI创意工具套件，包括风格转换
+    - term: AI图片分析工具
+      links:
+        - title: Google Cloud Vision API
+          url: https://cloud.google.com/vision
+          logo: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
+          description: AI图像分析和识别服务
+        - title: Amazon Rekognition
+          url: https://aws.amazon.com/rekognition/
+          logo: https://www.google.com/s2/favicons?sz=64&domain=aws.amazon.com
+          description: AI图像和视频分析服务
+        - title: Microsoft Azure Computer Vision
+          url: https://azure.microsoft.com/en-us/products/ai-services/computer-vision
+          logo: https://www.google.com/s2/favicons?sz=64&domain=azure.microsoft.com
+          description: AI图像分析和处理服务
+        - title: Clarifai
+          url: https://www.clarifai.com/
+          logo: https://www.google.com/s2/favicons?sz=64&domain=clarifai.com
+          description: AI图像识别和分析平台
+        - title: Imagga
+          url: https://imagga.com/
+          logo: https://www.google.com/s2/favicons?sz=64&domain=imagga.com
+          description: AI图像标签和分析服务
+    - term: AI设计辅助工具
+      links:
+        - title: Figma AI
+          url: https://www.figma.com/ai/
+          logo: https://www.google.com/s2/favicons?sz=64&domain=figma.com
+          description: AI增强的设计协作工具
+        - title: Adobe Express AI
+          url: https://www.adobe.com/express/feature/ai
+          logo: https://www.google.com/s2/favicons?sz=64&domain=adobe.com
+          description: AI驱动的快速设计工具
+        - title: Sketch AI
+          url: https://www.sketch.com/ai/
+          logo: https://www.google.com/s2/favicons?sz=64&domain=sketch.com
+          description: AI增强的UI设计工具
+        - title: Uizard
+          url: https://uizard.io/
+          logo: https://www.google.com/s2/favicons?sz=64&domain=uizard.io
+          description: AI驱动的UI/UX设计工具
+        - title: Khroma
+          url: https://www.khroma.co/
+          logo: https://www.google.com/s2/favicons?sz=64&domain=khroma.co
+          description: AI驱动的色彩方案生成器
 
 
-- taxonomy: 资讯学习
-  icon: fas fa-pencil-alt fa-lg
+- taxonomy: 音频工具
+  icon: fas fa-music
   list: 
-    - term: 资讯书籍
+    - term: AI语音合成
       links:
-        - title: 微信读书
-          url: https://weread.qq.com/
-          logo: 微信读书.jpg
-          description: 微信读书电脑版。
-        - title: 书栈网
-          url: https://www.bookstack.cn/
-          logo: 书栈网.jpg
-          description: IT 互联网开源编程书籍免费阅读与下载。
-    - term: 博客论坛
+        - title: ElevenLabs
+          url: ./aw/elevenlabs
+          logo: https://www.google.com/s2/favicons?sz=64&domain=elevenlabs.io
+          description: AI语音合成平台，生成自然流畅的语音
+        - title: Google Text-to-Speech
+          url: ./aw/google-text-to-speech
+          logo: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
+          description: Google的AI语音合成服务
+        - title: Amazon Polly
+          url: ./aw/amazon-polly
+          logo: https://www.google.com/s2/favicons?sz=64&domain=aws.amazon.com
+          description: AWS的AI语音合成服务
+        - title: Microsoft Azure Speech
+          url: ./aw/microsoft-azure-speech
+          logo: https://www.google.com/s2/favicons?sz=64&domain=azure.microsoft.com
+          description: Microsoft的AI语音服务
+        - title: Descript
+          url: ./aw/descript
+          logo: https://www.google.com/s2/favicons?sz=64&domain=descript.com
+          description: AI音频编辑和语音合成工具
+    - term: AI音乐生成
       links:
-        - title: Inoreader
-          url: https://www.inoreader.com/
-          logo: inoreader.jpg
-          description: 重新掌控你的新闻订阅源。
-        - title: Hacker News
-          url: https://news.ycombinator.com/
-          logo: hacker-news.jpg
-          description: 一家关于计算机黑客和创业公司的社会化新闻网站。
-        - title: 经管之家
-          url: https://bbs.pinggu.org/
-          logo: 经管之家.jpg
-          description: 国内活跃的经济、管理、金融、统计在线教育和咨询网站。
-        - title: 阮一峰的网络日志
-          url: http://www.ruanyifeng.com/blog/
-          logo: 阮一峰.png
-          description: 阮一峰，科技爱好者周刊。
-        - title: 酷壳
-          url: https://www.coolshell.cn/
-          logo: ''
-          description: 酷 壳 – CoolShell。
-    - term: 设计规范
+        - title: OpenAI Jukebox
+          url: ./aw/openai-jukebox
+          logo: https://www.google.com/s2/favicons?sz=64&domain=openai.com
+          description: AI音乐生成模型
+        - title: Amper Music
+          url: ./aw/amper-music
+          logo: https://www.google.com/s2/favicons?sz=64&domain=ampermusic.com
+          description: AI音乐创作平台
+        - title: AIVA
+          url: ./aw/aiva
+          logo: https://www.google.com/s2/favicons?sz=64&domain=aiva.ai
+          description: AI作曲家，生成各种风格的音乐
+        - title: Soundful
+          url: ./aw/soundful
+          logo: https://www.google.com/s2/favicons?sz=64&domain=soundful.com
+          description: AI背景音乐生成工具
+        - title: Beatoven.ai
+          url: ./aw/beatoven-ai
+          logo: https://www.google.com/s2/favicons?sz=64&domain=beatoven.ai
+          description: AI驱动的音乐创作平台
+    - term: AI音频编辑
       links:
-        - title: Design Guidelines
-          url: http://designguidelines.co/
-          logo: designguidelines.png
-          description: Design Guidelines &mdash; The way products are built.
-        - title: Awesome design systems
-          url: https://github.com/alexpate/awesome-design-systems
-          logo: awesome_design_systems.png
-          description:  A collection of awesome design systems.
-        - title: Material Design
-          url: https://material.io/guidelines/
-          logo: Material_Design.png
-          description: Introduction - Material Design.
-        - title: Human Interface Guidelines
-          url: https://developer.apple.com/ios/human-interface-guidelines
-          logo: human_interface_guidelines.png
-          description: Human Interface Guidelines iOS.
-        - title: Photoshop Etiquette
-          url: http://viggoz.com/photoshopetiquette/
-          logo: photoshopetiquette.png
-          description: PS礼仪-WEB设计指南。
-    - term: 视频教程
+        - title: Adobe Audition AI
+          url: ./aw/adobe-audition-ai
+          logo: https://www.google.com/s2/favicons?sz=64&domain=adobe.com
+          description: AI增强的专业音频编辑软件
+        - title: Audacity
+          url: ./aw/audacity
+          logo: https://www.google.com/s2/favicons?sz=64&domain=audacityteam.org
+          description: 开源音频编辑软件（支持AI插件）
+        - title: Otter.ai
+          url: ./aw/otter-ai
+          logo: https://www.google.com/s2/favicons?sz=64&domain=otter.ai
+          description: AI音频转录和编辑工具
+        - title: AudioStack
+          url: ./aw/audiostack
+          logo: https://www.google.com/s2/favicons?sz=64&domain=audiostack.ai
+          description: AI音频编辑和生成平台
+        - title: Cleanvoice AI
+          url: ./aw/cleanvoice-ai
+          logo: https://www.google.com/s2/favicons?sz=64&domain=cleanvoice.ai
+          description: AI音频降噪和清理工具
+    - term: AI语音识别
       links:
-        - title: Photoshop Lady
-          url: http://www.photoshoplady.com/
-          logo: PhotoshopLady.png
-          description: Your Favourite Photoshop Tutorials in One Place.
-        - title: doyoudo
-          url: http://doyoudo.com/
-          logo: doyoudo.png
-          description: 创意设计软件学习平台。
-        - title: 没位道
-          url: http://www.c945.com/web-ui-tutorial/
-          logo: web_ui_tutorial.png
-          description: WEB UI免费视频公开课。
-        - title: 慕课网
-          url: https://www.imooc.com/
-          logo: imooc.png
-          description: 程序员的梦工厂（有UI课程）。
+        - title: OpenAI Whisper
+          url: ./aw/openai-whisper
+          logo: https://www.google.com/s2/favicons?sz=64&domain=openai.com
+          description: AI语音识别模型
+        - title: Google Speech-to-Text
+          url: ./aw/google-speech-to-text
+          logo: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
+          description: Google的AI语音识别服务
+        - title: Amazon Transcribe
+          url: ./aw/amazon-transcribe
+          logo: https://www.google.com/s2/favicons?sz=64&domain=aws.amazon.com
+          description: AWS的AI语音识别服务
+        - title: Microsoft Azure Speech-to-Text
+          url: ./aw/microsoft-azure-speech-to-text
+          logo: https://www.google.com/s2/favicons?sz=64&domain=azure.microsoft.com
+          description: Microsoft的AI语音识别服务
+        - title: AssemblyAI
+          url: ./aw/assemblyai
+          logo: https://www.google.com/s2/favicons?sz=64&domain=assemblyai.com
+          description: AI语音识别和分析平台
+    - term: AI音频增强
+      links:
+        - title: Krisp
+          url: ./aw/krisp
+          logo: https://www.google.com/s2/favicons?sz=64&domain=krisp.ai
+          description: AI降噪和音频增强工具
+        - title: Adobe Podcast Enhance
+          url: ./aw/adobe-podcast-enhance
+          logo: https://www.google.com/s2/favicons?sz=64&domain=adobe.com
+          description: AI播客音频增强工具
+        - title: iZotope RX
+          url: ./aw/izotope-rx
+          logo: https://www.google.com/s2/favicons?sz=64&domain=izotope.com
+          description: AI音频修复和增强软件
+        - title: AudioDenoiser
+          url: ./aw/audiodenoiser
+          logo: https://www.google.com/s2/favicons?sz=64&domain=audiodenoiser.com
+          description: 在线AI音频降噪工具
+        - title: Cleanfeed
+          url: ./aw/cleanfeed
+          logo: https://www.google.com/s2/favicons?sz=64&domain=cleanfeed.net
+          description: AI增强的远程音频录制工具
+    - term: AI音频分析
+      links:
+        - title: Spotify Audio Analysis
+          url: ./aw/spotify-audio-analysis
+          logo: https://www.google.com/s2/favicons?sz=64&domain=spotify.com
+          description: Spotify的AI音频特征分析
+        - title: Acoustic Brainz
+          url: ./aw/acoustic-brainz
+          logo: https://www.google.com/s2/favicons?sz=64&domain=acousticbrainz.org
+          description: 开源音频分析平台
+        - title: Audionamix
+          url: ./aw/audionamix
+          logo: https://www.google.com/s2/favicons?sz=64&domain=audionamix.com
+          description: AI音频分离和分析工具
+        - title: Izotope Music Rebalance
+          url: ./aw/izotope-music-rebalance
+          logo: https://www.google.com/s2/favicons?sz=64&domain=izotope.com
+          description: AI音乐分离和分析工具
+        - title: Spleeter
+          url: ./aw/spleeter
+          logo: https://www.google.com/s2/favicons?sz=64&domain=github.com
+          description: 开源AI音频分离工具
+    - term: AI播客工具
+      links:
+        - title: Alitu
+          url: https://alitu.com/
+          logo: https://www.google.com/s2/favicons?sz=64&domain=alitu.com
+          description: AI播客制作和编辑平台
+        - title: Descript Podcast
+          url: https://descript.com/podcast
+          logo: https://www.google.com/s2/favicons?sz=64&domain=descript.com
+          description: AI播客编辑和发布工具
+        - title: Riverside.fm
+          url: https://riverside.fm/
+          logo: https://www.google.com/s2/favicons?sz=64&domain=riverside.fm
+          description: AI增强的播客录制平台
+        - title: SquadCast
+          url: https://squadcast.fm/
+          logo: https://www.google.com/s2/favicons?sz=64&domain=squadcast.fm
+          description: AI播客录制和制作工具
+        - title: Podcastle
+          url: https://podcastle.ai/
+          logo: https://www.google.com/s2/favicons?sz=64&domain=podcastle.ai
+          description: AI驱动的播客创作平台
         
