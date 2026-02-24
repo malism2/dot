@@ -1,0 +1,38 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+ai-webui/node_modules
+ai-webui/.pnp
+ai-webui/.pnp.js
+ai-webui/.yarn/install-state.gz
+
+# testing
+ai-webui/coverage
+
+# next.js
+ai-webui/.next/
+ai-webui/out/
+
+# production
+ai-webui/build
+
+# misc
+.DS_Store
+ai-webui/*.pem
+
+# debug
+ai-webui/npm-debug.log*
+ai-webui/yarn-debug.log*
+ai-webui/yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+copy_github_release.sh

@@ -1,0 +1,14 @@
+[
+    {"name": "deepseek", "url": "https://www.deepseek.com/en"},
+    {"name": "doubao", "url": "https://www.doubao.com"},
+    {"name": "qwen", "url": "https://www.qianwen.com"},
+    {"name": "yiyan", "url": "https://yiyan.baidu.com"},
+    {"name": "yuanbao", "url": "https://yuanbao.tencent.com"},
+
+    {"name": "chatgpt", "url": "https://chatgpt.com"},
+    {"name": "grok", "url": "https://grok.com"},
+    {"name": "llama", "url": "https://www.llama.com"},
+    {"name": "copilot", "url": "https://copilot.microsoft.com"},
+    {"name": "claude", "url": "https://claude.ai"}
+
+]
