@@ -9,7 +9,7 @@ import { NAV_LINKS } from '@/lib/constants';
 import { cn } from '@/lib/utils';
 
 import BaseImage from '../image/BaseImage';
-import LocaleSwitcher from '../LocaleSwitcher';
+// import LocaleSwitcher from '../LocaleSwitcher';
 import MenuBtn from './MenuBtn';
 import NavigationDrawer from './NavigationDrawer';
 
@@ -57,9 +57,9 @@ export default function Navigation() {
                 </Link>
               ))}
             </ul>
-            <div className='flex items-center gap-x-3'>
+            {/* <div className='flex items-center gap-x-3'>
               <LocaleSwitcher />
-            </div>
+            </div> */}
           </div>
           {/* mobile */}
           <div className='mx-3 flex items-center gap-x-4 lg:hidden'>

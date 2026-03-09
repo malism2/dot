@@ -1,14 +1,14 @@
 [
-    {"name": "deepseek", "url": "https://www.deepseek.com/en"},
-    {"name": "doubao", "url": "https://www.doubao.com"},
-    {"name": "qwen", "url": "https://www.qianwen.com"},
-    {"name": "yiyan", "url": "https://yiyan.baidu.com"},
-    {"name": "yuanbao", "url": "https://yuanbao.tencent.com"},
+    {"name": "deepseek", "url": "https://www.deepseek.com/en", "flag": 2},
+    {"name": "doubao", "url": "https://www.doubao.com", "flag": 2},
+    {"name": "qwen", "url": "https://www.qianwen.com", "flag": 2},
+    {"name": "yiyan", "url": "https://yiyan.baidu.com", "flag": 2},
+    {"name": "yuanbao", "url": "https://yuanbao.tencent.com", "flag": 2},
 
-    {"name": "chatgpt", "url": "https://chatgpt.com"},
-    {"name": "grok", "url": "https://grok.com"},
-    {"name": "llama", "url": "https://www.llama.com"},
-    {"name": "copilot", "url": "https://copilot.microsoft.com"},
-    {"name": "claude", "url": "https://claude.ai"}
+    {"name": "chatgpt", "url": "https://chatgpt.com", "flag": 2},
+    {"name": "grok", "url": "https://grok.com", "flag": 2},
+    {"name": "llama", "url": "https://www.llama.com", "flag": 2},
+    {"name": "copilot", "url": "https://copilot.microsoft.com", "flag": 2},
+    {"name": "claude", "url": "https://claude.ai", "flag": 2}
 
 ]

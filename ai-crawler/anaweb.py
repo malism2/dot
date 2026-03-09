@@ -203,6 +203,27 @@ class AnaWeb:
     def save_to_supabase(self, data):
         db.save_navigation(data)
 
+    def get_from_locale(self, url):
+        name = CommonUtil.get_name_by_url(url)
+        screenshot_path = f'res/{name}.webp'
+
+        if not os.path.exists(screenshot_path):
+            screenshot = f'res/{name}.png'
+            CommonUtil.png_to_webp_tiny(screenshot, screenshot_path, 75)
+            os.remove(screenshot)
+        
+        image_key = name + '.webp'
+        # 上传图片，返回图片地址
+        screenshot_key = oss.upload_file_to_r2(screenshot_path, image_key)
+        # 生成缩略图
+        thumnbail_key = oss.generate_thumbnail_image(image_key)
+
+        with open(f'res/{name}.json', 'r', encoding='utf-8') as file:
+            data = json.load(file)            
+        data['screenshot'] = screenshot_key
+        data['screenshot_thumbnail'] = thumnbail_key
+        return data            
+
 
 website_crawler = AnaWeb()
 
@@ -211,12 +232,18 @@ if __name__ == '__main__':
 
     async def main():
         tags = []
-        languages = ['cn', 'jp']
+        languages = []
         # languages = ['jp', 'de', 'es', 'fr', 'pt', 'ru', 'cn', 'tw']
-        with open('repository.json', 'r') as file:
+        with open('repository.json', 'r', encoding='utf-8') as file:
             repo = json.load(file)
-        for i in repo:    
-            result = await website_crawler.scrape_website(i['url'], tags, languages)
+        for i in repo:
+            if i['flag'] == 2:
+                continue
+            if i['flag'] == 1:
+                result = website_crawler.get_from_locale(i['url'])
+            else:    
+                result = await website_crawler.scrape_website(i['url'], tags, languages)
+
             if result:
                 website_crawler.save_to_supabase(result)
                 website_crawler.write_to_file('./res', result['name'], result)
