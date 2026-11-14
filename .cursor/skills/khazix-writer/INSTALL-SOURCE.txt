@@ -1,0 +1,2 @@
+﻿Source: https://github.com/KKKKhazix/khazix-skills/tree/main/khazix-writer
+Installed from KKKKhazix/khazix-skills main (zip via gh-proxy) on 2026-11-02.

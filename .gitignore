@@ -1,0 +1,40 @@
+# WeChat credentials
+#wechat/env
+
+# Local previews (regenerable)
+wechat/preview/*.html
+
+# Intermediate / scratch prompts
+wechat/_prompts/
+wechat/_tmp/
+wechat/**/_tmp-*
+wechat/**/*.tmp
+
+# Tooling clones / venvs
+.tools
+*$py.class
+__pycache__
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.cache/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+*.log
+
+# Local env & secrets
+#.env
+.env.*
+!.env.example
+*.pem
+*.key
