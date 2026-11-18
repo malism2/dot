@@ -1,0 +1,103 @@
+{
+  "version": 2,
+  "skills": {
+    "browser-cdp": {
+      "source": "zenstory-ai/oh-story-claudecode",
+      "commit": "52295f659e23ebf37101df379def0b02cc5ab268",
+      "sourceType": "github",
+      "skillPath": "skills/browser-cdp/SKILL.md",
+      "computedHash": "1bbfadcf804800bbfb9603bc379188a21d7308e6b013e862b6a05c6f4a15b21c"
+    },
+    "story": {
+      "source": "zenstory-ai/oh-story-claudecode",
+      "commit": "52295f659e23ebf37101df379def0b02cc5ab268",
+      "sourceType": "github",
+      "skillPath": "skills/story/SKILL.md",
+      "computedHash": "88847eb8f329a424c6a9ee5541738984aba032959e39354c5a0b4fd768795795"
+    },
+    "story-cover": {
+      "source": "zenstory-ai/oh-story-claudecode",
+      "commit": "52295f659e23ebf37101df379def0b02cc5ab268",
+      "sourceType": "github",
+      "skillPath": "skills/story-cover/SKILL.md",
+      "computedHash": "c14871c337f3770264a37a5bf09d9d902b17b7d1dc753829207600ff01137e5e"
+    },
+    "story-deslop": {
+      "source": "zenstory-ai/oh-story-claudecode",
+      "commit": "52295f659e23ebf37101df379def0b02cc5ab268",
+      "sourceType": "github",
+      "skillPath": "skills/story-deslop/SKILL.md",
+      "computedHash": "4af127a340f0ff6d594d3f81c8bec0199d9e23656bacc77fc0f87e3a11d6e76a"
+    },
+    "story-import": {
+      "source": "zenstory-ai/oh-story-claudecode",
+      "commit": "52295f659e23ebf37101df379def0b02cc5ab268",
+      "sourceType": "github",
+      "skillPath": "skills/story-import/SKILL.md",
+      "computedHash": "7b606ef0c94648d01328fcdee90db3e1034ebcd71d2d1928707d1e9b4327f19e"
+    },
+    "story-long-analyze": {
+      "source": "zenstory-ai/oh-story-claudecode",
+      "commit": "52295f659e23ebf37101df379def0b02cc5ab268",
+      "sourceType": "github",
+      "skillPath": "skills/story-long-analyze/SKILL.md",
+      "computedHash": "cfe970fed4fb52717ed8512b503380761c3b5238805bed996a44ad5ee054b3df"
+    },
+    "story-long-scan": {
+      "source": "zenstory-ai/oh-story-claudecode",
+      "commit": "52295f659e23ebf37101df379def0b02cc5ab268",
+      "sourceType": "github",
+      "skillPath": "skills/story-long-scan/SKILL.md",
+      "computedHash": "9cd467788ec493369aaff9c6ca3bf5642ae8d8076c045f8b75beaf2c0818db97"
+    },
+    "story-long-write": {
+      "source": "zenstory-ai/oh-story-claudecode",
+      "commit": "52295f659e23ebf37101df379def0b02cc5ab268",
+      "sourceType": "github",
+      "skillPath": "skills/story-long-write/SKILL.md",
+      "computedHash": "01c472f1c83bbb5f03bdcbb166f0542cc7a8ee48a22ef0a8e3774672e19ab3b6"
+    },
+    "story-publish": {
+      "source": "zenstory-ai/oh-story-claudecode",
+      "commit": "52295f659e23ebf37101df379def0b02cc5ab268",
+      "sourceType": "github",
+      "skillPath": "skills/story-publish/SKILL.md",
+      "computedHash": "64997d327de35d61dd95e32aeb5f60f5eca97d03e4b62be683f7b97add5289e4"
+    },
+    "story-review": {
+      "source": "zenstory-ai/oh-story-claudecode",
+      "commit": "52295f659e23ebf37101df379def0b02cc5ab268",
+      "sourceType": "github",
+      "skillPath": "skills/story-review/SKILL.md",
+      "computedHash": "295eb605c84c50f41b50e34d1f839c06a3678666087c85dc1f3f2f1f561a5517"
+    },
+    "story-setup": {
+      "source": "zenstory-ai/oh-story-claudecode",
+      "commit": "52295f659e23ebf37101df379def0b02cc5ab268",
+      "sourceType": "github",
+      "skillPath": "skills/story-setup/SKILL.md",
+      "computedHash": "2660ef5c6bef7a39986bf2897171921e0a2e482bfdecf7eb6efe30384f59db7f"
+    },
+    "story-short-analyze": {
+      "source": "zenstory-ai/oh-story-claudecode",
+      "commit": "52295f659e23ebf37101df379def0b02cc5ab268",
+      "sourceType": "github",
+      "skillPath": "skills/story-short-analyze/SKILL.md",
+      "computedHash": "9f401d8d76184366a6634388fa7100b4233f9ba6a678a11b724c470cfd51a706"
+    },
+    "story-short-scan": {
+      "source": "zenstory-ai/oh-story-claudecode",
+      "commit": "52295f659e23ebf37101df379def0b02cc5ab268",
+      "sourceType": "github",
+      "skillPath": "skills/story-short-scan/SKILL.md",
+      "computedHash": "db373c33aad5418ca21db448787c43bbff1a080eb0918dd1bf6df7b65bf159d2"
+    },
+    "story-short-write": {
+      "source": "zenstory-ai/oh-story-claudecode",
+      "commit": "52295f659e23ebf37101df379def0b02cc5ab268",
+      "sourceType": "github",
+      "skillPath": "skills/story-short-write/SKILL.md",
+      "computedHash": "e5bace1d08a6a07b3d068caee6e8277261ce6d3fff6c39b37768755f8beebdec"
+    }
+  }
+}

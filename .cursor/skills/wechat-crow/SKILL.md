@@ -5,7 +5,8 @@ description: >-
   settles the angle with agent-reach, writes overview and captions with
   khazix-writer, keeps captions short with humanizer-zh, draws most of the
   piece with hand-drawn-styles, then formats and optionally publishes a draft
-  with wenyan-cli the same way as wechat-pipeline (wechat/articles, wechat/env).
+  with wenyan render + wechat/publish_remote.py the same way as wechat-pipeline
+  (wechat/articles, remote draft publish).
   Use only when the user mentions wechat-crow. Do not use for 马瑙斯, WeWrite,
   or wechat-pipeline.
 ---
@@ -68,7 +69,7 @@ description: >-
 - [ ] 6. Draw: 选定画风后 hand-drawn 出图；全文同一编号
 - [ ] 7. Save: wechat/articles/<slug>.md（概述在第一图之前）
 - [ ] 8. Render: wenyan render → wechat/preview/
-- [ ] 9. Publish: 仅当用户说推到草稿箱、wechat/env 已填、封面存在
+- [ ] 9. Publish: 仅当用户说推到草稿箱且封面存在 → python3 wechat/publish_remote.py <slug>
 ```
 
 ## Workflow
@@ -140,13 +141,13 @@ cover: ../covers/<slug>.jpg
 wenyan render -f wechat/articles/<slug>.md -t default > wechat/preview/<slug>.html
 ```
 
-9. **发布** — 三条同时满足才执行：用户明确说「推到草稿箱」、`wechat/env` 已填、封面文件 `wechat/covers/<slug>.jpg` 存在。
+9. **发布** — 用户明确说「推到草稿箱」、封面 `wechat/covers/<slug>.jpg` 存在时执行（与 wechat-pipeline 同一远程脚本，不要本机 `wenyan publish`）：
 
 ```bash
-wenyan publish -f wechat/articles/<slug>.md --env-file wechat/env
+python3 wechat/publish_remote.py <slug>
 ```
 
-缺封面只保留预览，不发布。
+成功须出现 `发布成功，Media ID: ...`。缺封面只保留预览，不发布。
 
 ## Hard rules
 
@@ -156,8 +157,8 @@ wenyan publish -f wechat/articles/<slug>.md --env-file wechat/env
 - 标题能总结全文；正文开头先概述，再出第一格漫画
 - 画风按内容走 hand-drawn 选型，不默认锁死 1 号；一篇只用一个编号
 - 图只走 hand-drawn，不在本 skill 里维护第二套画风
-- 未授权不 `wenyan publish`；密钥不进文稿
-- 排版和发布只用 wenyan，不调用 gzh-design
+- 未授权不发布；密钥不进文稿
+- 排版用 `wenyan render`；发布只走 `wechat/publish_remote.py`，不调用 gzh-design、不本机 `wenyan publish`
 - 成稿无 `-end-`，无文末来源列表，无卡兹克式长文升华收尾段
 - 先讲别国/主流脉络，再接到国内情况；给文化程度一般的读者看
 - 用户说马瑙斯、WeWrite 或 wechat-pipeline 时，走 wechat-pipeline，不用本 skill

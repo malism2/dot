@@ -4,9 +4,10 @@ description: >-
   Runs the 马瑙斯 WeChat Official Account pipeline: picks evergreen AI topics
   (how-to, postmortems, deep dives, comparisons—not daily hot news), drafts
   longer Chinese explainers with WeWrite skills, saves Markdown under
-  wechat/articles, formats and optionally publishes drafts with wenyan-cli
-  using wechat/env. Use when the user mentions 马瑙斯, 公众号, 微信草稿箱,
-  wechat-pipeline, WeWrite, or wenyan publish/render for this repo.
+  wechat/articles, renders with wenyan, and publishes drafts via
+  wechat/publish_remote.py (SSH sync + remote wenyan). Use when the user
+  mentions 马瑙斯, 公众号, 微信草稿箱, wechat-pipeline, WeWrite, or wenyan
+  publish/render for this repo.
 ---
 
 # wechat-pipeline · 马瑙斯
@@ -63,7 +64,9 @@ description: >-
 | Articles | `wechat/articles/<slug>.md` |
 | HTML preview | `wechat/preview/<slug>.html` |
 | Covers | `wechat/covers/` |
-| Credentials | `wechat/env` |
+| Credentials | `wechat/env`（远程发布机上也需已填） |
+| Remote publish | `wechat/publish_remote.py` |
+| SSH key | `wechat/ssh-key-2024-07-18.key` |
 | Upstream write skills | `.cursor/skills/wewrite*` |
 | Style | `%USERPROFILE%\.wewrite\style.yaml` |
 
@@ -74,7 +77,7 @@ description: >-
 - [ ] 2. Draft: 2800–4000 字实操/复盘/专题稿 + review
 - [ ] 3. Save: wechat/articles/<slug>.md (+ cover if publishing)
 - [ ] 4. Render: wenyan render → wechat/preview/
-- [ ] 5. Publish: only if user says 推到草稿箱 AND wechat/env filled
+- [ ] 5. Publish: only if user says 推到草稿箱 → python3 wechat/publish_remote.py <slug>
 ```
 
 ## Workflow
@@ -98,18 +101,23 @@ cover: ../covers/<slug>.jpg
 wenyan render -f wechat/articles/<slug>.md -t default > wechat/preview/<slug>.html
 ```
 
-6. **Publish**（须明确授权 + env 已填）:
+6. **Publish**（须明确授权；用远程脚本，不要本机 `wenyan publish`）:
 
 ```bash
-wenyan publish -f wechat/articles/<slug>.md --env-file wechat/env
+python3 wechat/publish_remote.py <slug>
 ```
+
+脚本会：SSH 到 `ubuntu@79.72.84.5`（密钥 `wechat/ssh-key-2024-07-18.key`）→ 同步正文/封面/文内图到 `/home/ubuntu/dot`（结构与本地一致）→ 在远程用 `node "$(readlink -f "$(command -v wenyan)")"` 执行 publish。成功时应看到 `发布成功，Media ID: ...`；只有 exit 0 没有这行视为失败。
+
+可选：`--dry-run` 只打印命令；`--sync-only` 只同步不发布。
 
 ## Hard rules
 
 - 默认禁止日更式海外热搜速报；例外须用户点名
 - 正文明显低于 ~2500 字视为未完成
 - 未确认选题不写长文（已给题除外）
-- 密钥不进仓库文稿；未授权不 `wenyan publish`
+- 密钥不进仓库文稿；未授权不发布
+- 发布只走 `wechat/publish_remote.py`，禁止本机直接 `wenyan publish`
 - 事实与推断分开；不编造亲历
 
 ## WeWrite CLI (optional)
